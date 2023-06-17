@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="relative">
-        <img src="/src/assets/img/img9.jpg" alt="" class="drop-shadow-bittersweet grayscale hover:grayscale-0  " width="300" height="500">
+        <img src="/src/assets/img/gif1.gif" alt="" class="drop-shadow-bittersweet grayscale hover:grayscale-0" width="300" height="300">
       </div>
     </div>
   </div>
