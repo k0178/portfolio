@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;900&family=Montserrat:wght@400;900&family=Sora:wght@400;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    box-shadow: 10px 10px 0 rgb(224, 255, 79);
+}
+
+.exact-active-link {
+    text-shadow: 1px 2px 0 rgb(224, 255, 79);
+    color: #FF6663;
+}
+
+
