@@ -5,21 +5,45 @@
     </h1>
   </div>
 
-  <div class="p-16  text-center justify-center mt-4">
-
-    <div class="grid grid-cols-4 mt-5 gap-4">
+  <div class="p-8  flex justify-center mt-4">
+    <div class="grid md:grid-cols-3 mt-5 gap-y-8 md:gap-6 min-[320px]:grid-cols-2 sm:gap-2 ">
       <div class="hover:animate-bounce">
-        <a href="https://github.com/k0178" class="text-chart font-bold hover:text-chart drop-shadow-bittersweet"><font-awesome-icon class="me-2 text-5xl" :icon="['fab', 'github']" /></a>
-      </div>
-      <div class="hover:animate-bounce">
-        <a href="https://www.linkedin.com/in/leandakenneth/" class="text-chart font-bold hover:text-chart drop-shadow-bittersweet"><font-awesome-icon class="me-2 text-5xl" :icon="['fab', 'linkedin']" /></a>
-      </div>
-      <div class="hover:animate-bounce">
-        <a href="https://leandakenneth@gmail.com" class="text-chart font-bold hover:text-chart drop-shadow-bittersweet"><font-awesome-icon class="me-2 text-5xl" :icon="['fas', 'envelope']" />
+        <a href="https://github.com/k0178" class="text-chart flex  me-2 items-center font-bold hover:text-chart drop-shadow-bittersweet">
+          <font-awesome-icon class="me-2 text-5xl" :icon="['fab', 'github']" />
+          <span class="min-[320px]:text-[12px] md:text-lg ">
+             k0178
+          </span>
         </a>
       </div>
       <div class="hover:animate-bounce">
-        <a href="https://messenger.com/t/100000781930453" class="text-chart font-bold hover:text-chart drop-shadow-bittersweet"><font-awesome-icon class="me-2 text-5xl" :icon="['fab', 'facebook-messenger']" />
+        <a href="https://www.linkedin.com/in/leandakenneth/" class="flex items-center me-2 text-chart font-bold hover:text-chart drop-shadow-bittersweet">
+          <font-awesome-icon class="me-2 text-5xl" :icon="['fab', 'linkedin']" />
+          <span class="min-[320px]:text-[12px] md:text-lg ">
+             Kenneth Leanda
+          </span>
+        </a>
+      </div>
+      <div class="hover:animate-bounce">
+        <a class="text-chart flex items-center font-bold min-[320px]:text-[12px] hover:text-chart drop-shadow-bittersweet"><font-awesome-icon class="me-2 text-5xl" :icon="['fas', 'envelope']" />
+          <span class="md:text-lg md:break-words sm:break-all  min-[320px]:break-all">
+            leandakenneth@gmail.com
+          </span>
+        </a>
+      </div>
+      <div class="hover:animate-bounce">
+        <a class="text-chart font-bold min-[320px]:text-[12px] hover:text-chart flex items-center drop-shadow-bittersweet">
+          <font-awesome-icon class="me-2 text-5xl" :icon="['fab', 'facebook-messenger']" />
+          <span class="min-[320px]:text-[12px] md:text-lg ">
+             Kenneth Leanda
+          </span>
+        </a>
+      </div>
+      <div class="hover:animate-bounce">
+        <a class="text-chart  font-bold hover:text-chart flex items-center drop-shadow-bittersweet">
+          <font-awesome-icon class="me-2 text-5xl" :icon="['fas', 'mobile']" />
+          <span class="min-[320px]:text-[12px] md:text-lg ">
+             +63 927 8738 525
+          </span>
         </a>
       </div>
     </div>
