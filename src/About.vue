@@ -13,9 +13,8 @@
       point of sale, customer transactions, and human resources. Passionate about building and designing professional websites. <br><br>
       Currently seeking a firm with a group of hardworking professionals that are great to collaborate with and hopefully grow as a professional in the industry.
     </p>
-
-    <div class="justify-center items-center flex space-x-16 sm:mt-8 xl:mt-0  2xl:inline-flex sm:inline-flex md:inline-flex">
-      <div class="relative sm:mb-16">
+    <div class="justify-center items-center flex space-x-16 sm:mt-8 xl:mt-0  2xl:inline-flex min-[320px]:inline-block sm:inline-flex md:inline-flex">
+      <div class="relative sm:mb-16 min-[320px]:mb-16">
         <img src="/src/assets/img/img7.jpg" id="me" alt="" class="drop-shadow-bittersweet z-0 grayscale hover:grayscale-0 " width="300" height="300">
         <div class="absolute -left-3 -top-3">
           <label for="me" class="text-xl text-bittersweet exact-active-link font-bold">
@@ -27,7 +26,31 @@
         <img src="/src/assets/img/gif1.gif" alt="" class="drop-shadow-bittersweet grayscale hover:grayscale-0" width="300" height="300">
       </div>
     </div>
+
   </div>
+  <div class="flex content-stretch m-16">
+    <div class="border flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
+    <label for="me" class="text-6xl ml-8 text-bittersweet exact-active-link font-bold">Tech Stack</label>
+  </div>
+  <div class="flex justify-center">
+    <div class="grid md:grid-cols-4 min-[320px]:grid-cols-2 sm:grid-cols-2 grid-flow-row mx-16 mb-16 gap-y-16 gap-x-16 justify-items-center items-center ">
+      <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'laravel']" />
+      <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'php']" />
+      <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'js']" />
+      <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'bootstrap']" />
+      <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'figma']" />
+      <label class="text-chart drop-shadow-bittersweet font-bold ">Tailwind CSS</label>
+      <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'css3-alt']" />
+      <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'vuejs']" />
+      <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'react']" />
+      <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'github']" />
+      <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fas', 'database']" />
+      <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fas', 'c']" />
+
+    </div>
+  </div>
+
+
 </template>
 
 <script>
