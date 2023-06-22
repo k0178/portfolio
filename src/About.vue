@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative about">
     <h1 class="text-[150px] text-right absolute z-[-2]  sm:break-words break-all opacity-20  uppercase font-bold text-chart drop-shadow-bittersweet ">
       About Me
     </h1>
@@ -28,12 +28,12 @@
     </div>
 
   </div>
-  <div class="flex content-stretch m-16">
+  <div class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
     <div class="border flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
     <label for="me" class="text-6xl ml-8 text-bittersweet exact-active-link font-bold">Tech Stack</label>
   </div>
   <div class="flex justify-center">
-    <div class="grid md:grid-cols-4 min-[320px]:grid-cols-2 sm:grid-cols-2 grid-flow-row mx-16 mb-16 gap-y-16 gap-x-16 justify-items-center items-center ">
+    <div class="grid md:grid-cols-4 min-[320px]:grid-cols-3 sm:grid-cols-2 grid-flow-row mx-16 mb-16 gap-y-16 gap-x-16 justify-items-center items-center ">
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'laravel']" />
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'php']" />
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'js']" />
@@ -44,7 +44,7 @@
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'vuejs']" />
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'react']" />
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'github']" />
-      <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fas', 'database']" />
+      <label class="text-chart drop-shadow-bittersweet font-bold ">MySQL</label>
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fas', 'c']" />
 
     </div>
@@ -59,6 +59,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>

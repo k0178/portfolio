@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen h-screen" >
+  <div class="w-screen h-screen">
     <nav class="break-words mt-12">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
         <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center ml-3 text-sm text-white-500 text-bittersweet md:hidden hover:text-chart focus:outline-none  dark:text-gray-400" aria-controls="navbar-default" aria-expanded="false">
@@ -25,9 +25,11 @@
       </div>
     </nav>
     <hr class="border-t-4 border-dashed border-chart drop-shadow-bittersweet my-8 mx-16">
-    <div class="">
-        <router-view></router-view>
-    </div>
+        <router-view v-slot="{ Component }" >
+          <Transition name="fade">
+            <component :is="Component" />
+          </Transition>
+        </router-view>
     <footer class="pb-16">
       <p class="text-[12px] text-chart text-center sm:text-center dark:text-gray-400">© 2023 Developed by Kenneth Leanda. All Rights Reserved.
       </p>
@@ -39,11 +41,23 @@
 <script setup>
 import { onMounted } from 'vue'
 import { initFlowbite } from 'flowbite'
-
+import {RouterView, RouterLink} from 'vue-router'
 // initialize components based on data attribute selectors
 onMounted(() => {
     initFlowbite();
 })
 
 </script>
+
+<style lang="scss">
+.fade-enter-from,
+.fade-leave-to{
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .3s;
+}
+</style>
 

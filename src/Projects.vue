@@ -61,7 +61,6 @@
         living in the forest for generations.
         <br>
         <a href="https://ui.adsabs.harvard.edu/abs/2021E%26ES..771a2036M/abstract" class="italic text-2xs text-bittersweet">Source: https://ui.adsabs.harvard.edu/abs/2021E%26ES..771a2036M/abstract</a>
-
       </p>
     </div>
 
@@ -93,34 +92,43 @@
     <p class="text-bittersweet text-4xl exact-active-link text-center font-bold"> GREEN AP</p>
     <div class="align-middle w-full flex justify-center mt-4">
       <p class="text-center text-sm sm:break-words text-chart px-4 md:w-[600px] mb-16 ">
-        Efficiantur arcu iaculis eum conclusionemque civibus etiam. Signiferumque mus rhoncus posuere utinam minim finibus consectetuer similique voluptaria. Condimentum maiestatis lacinia eos urbanitas netus malorum. Rutrum inimicus eloquentiam possim sumo magna evertitur. Definitionem invidunt adipiscing eros quaestio dolorem.
-        <br><br>
-        Populo in pellentesque usu ante. Gloriatur delectus quot ancillae duo vivendo malorum dictas potenti. Has scripserit sententiae cu sollicitudin fames legimus. Recteque magna pertinacia explicari hendrerit contentiones. Tempor ante mediocritatem nec tortor massa tempor dicam netus.
+        Green Architecture Advocacy Philippines (Green AP) is a civic non-profit organization that is concerned about the environment
+        and takes action by promoting sustainable development of the built environment.
       </p>
     </div>
-<!--    <p class="text-bittersweet text-1xl text-center mb-10 font-bold"> Swipe to see more!!!</p>-->
-<!--    <swiper class="mySwiper">-->
-<!--      <swiper-slide class="">-->
-<!--        <div class="align-middle w-full flex justify-center">-->
-<!--          <img src="/src/assets/img/truenorth1.png" alt="" class="drop-shadow-bittersweet w-2/3 h-2/3">-->
-<!--        </div>-->
-<!--      </swiper-slide>-->
-<!--      <swiper-slide>-->
-<!--        <div class="align-middle w-full flex justify-center">-->
-<!--          <img src="/src/assets/img/truenorth2.png" alt="" class="drop-shadow-bittersweet w-2/3 h-2/3">-->
-<!--        </div>-->
-<!--      </swiper-slide>-->
-<!--      <swiper-slide>-->
-<!--        <div class="align-middle w-full flex justify-center">-->
-<!--          <img src="/src/assets/img/truenorth3.jpeg" alt="" class="drop-shadow-bittersweet w-2/3 h-2/3">-->
-<!--        </div>-->
-<!--      </swiper-slide>-->
-<!--      <swiper-slide>-->
-<!--        <div class="align-middle w-full flex justify-center">-->
-<!--          <img src="/src/assets/img/truenorth4.jpeg" alt="" class="drop-shadow-bittersweet w-2/3 h-2/3">-->
-<!--        </div>-->
-<!--      </swiper-slide>-->
-<!--    </swiper>-->
+    <p class="text-bittersweet text-1xl text-center mb-10 font-bold"> Swipe to see more!!!</p>
+    <swiper class="mySwiper mb-10">
+      <swiper-slide class="">
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/greenap-1.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/greenap-2.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/greenap-3.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/greenap-4.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/greenap-5.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/greenap-6.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+    </swiper>
     <hr class="border-t-4 border-dashed border-chart drop-shadow-bittersweet mb-16">
 
   </div>
