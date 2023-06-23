@@ -50,6 +50,19 @@
     </div>
   </div>
 
+  <div class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
+    <label for="me" class="text-6xl mr-8 min-[320px]:break-all text-bittersweet exact-active-link font-bold">Certifications</label>
+    <div class="border flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
+  </div>
+  <div class="flex justify-center">
+    <div class="grid md:grid-cols-4 min-[320px]:grid-cols-1 sm:grid-cols-2 grid-flow-row mx-16 mb-16 gap-y-16 gap-x-16 justify-items-center items-center ">
+      <div class="flex space-x-4 items-center col-start-2 col-span-2">
+        <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'microsoft']" />
+        <label  class="text-bittersweet  min-[320px]:text-sm text-xl">Microsoft Technology Associate: Database Administration Fundamentals</label>
+      </div>
+
+    </div>
+  </div>
 
 </template>
 

@@ -67,8 +67,6 @@
           <img src="/src/assets/img/truenorth8.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
         </div>
       </swiper-slide>
-
-
     </swiper>
 
     <hr class="border-t-4 border-dashed border-chart drop-shadow-bittersweet mb-16">

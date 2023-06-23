@@ -30,7 +30,7 @@
             <component :is="Component" />
           </Transition>
         </router-view>
-    <footer class="pb-16">
+    <footer class="pb-16 px-16">
       <p class="text-[12px] text-chart text-center sm:text-center dark:text-gray-400">© 2023 Developed by Kenneth Leanda. All Rights Reserved.
       </p>
     </footer>
