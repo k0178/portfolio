@@ -9,16 +9,16 @@
         <div class="hidden w-full md:block md:w-screen" id="navbar-default">
           <ul class="grid grid-cols-4 grid-flow-col  gap-4 font-bold text-chart flex flex-col text-center ">
             <li class="hover:animate-bounce">
-              <router-link to="/" active-class="active-link" exact-active-class="exact-active-link" class="no-underline hover:text-bittersweet text-left">Home</router-link>
+              <router-link to="/" active-class="active-link" exact-active-class="exact-active-link" class="no-underline hover:drop-shadow-bittersweet text-left">Home</router-link>
             </li>
             <li class="hover:animate-bounce">
-              <router-link to="/projects" active-class="active-link" exact-active-class="exact-active-link" class="no-underline hover:text-bittersweet text-right ">Projects</router-link>
+              <router-link to="/projects" active-class="active-link" exact-active-class="exact-active-link" class="no-underline hover:drop-shadow-bittersweet text-right ">Projects</router-link>
             </li>
             <li class="hover:animate-bounce">
-              <router-link to="/about" active-class="active-link" exact-active-class="exact-active-link"  class="no-underline hover:text-bittersweet   " >About</router-link>
+              <router-link to="/about" active-class="active-link" exact-active-class="exact-active-link"  class="no-underline hover:drop-shadow-bittersweet   " >About</router-link>
             </li>
             <li class="hover:animate-bounce">
-              <router-link to="/contact" active-class="active-link" exact-active-class="exact-active-link" class="no-underline hover:text-bittersweet  ">Contact</router-link>
+              <router-link to="/contact" active-class="active-link" exact-active-class="exact-active-link" class="no-underline hover:drop-shadow-bittersweet  ">Contact</router-link>
             </li>
           </ul>
         </div>

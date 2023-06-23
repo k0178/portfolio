@@ -25,7 +25,7 @@
 
   </div>
 
-    <p class="text-bittersweet text-1xl text-center mb-10 font-bold"> Swipe the image to see more!!!</p>
+    <p class="text-bittersweet text-1xl text-center mb-10 font-bold"> Swipe to see more!!!</p>
     <swiper class="mySwiper">
       <swiper-slide class="">
           <div class="align-middle w-full flex justify-center">
@@ -39,7 +39,7 @@
       </swiper-slide>
       <swiper-slide>
         <div class="align-middle w-full flex justify-center">
-          <img src="/src/assets/img/truenorth3.jpeg" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+          <img src="/src/assets/img/truenorth3.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
         </div>
       </swiper-slide>
       <swiper-slide>
@@ -47,6 +47,27 @@
           <img src="/src/assets/img/truenorth4.jpeg" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
         </div>
       </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/truenorth5.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/truenorth6.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/truenorth7.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/truenorth8.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+
 
     </swiper>
 
@@ -128,6 +149,12 @@
           <img src="/src/assets/img/greenap-6.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
         </div>
       </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/greenap-7.png" alt="" class="drop-shadow-bittersweet md:w-1/4 md:h-1/4 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+
     </swiper>
     <hr class="border-t-4 border-dashed border-chart drop-shadow-bittersweet mb-16">
 

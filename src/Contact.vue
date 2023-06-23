@@ -4,7 +4,6 @@
       My Contacts
     </h1>
   </div>
-
   <div class="p-8  flex justify-center mt-4">
     <div class="grid md:grid-cols-3 mt-5 gap-y-8 md:gap-6 min-[320px]:grid-cols-2 sm:gap-2 ">
       <div class="hover:animate-bounce">
@@ -42,7 +41,7 @@
         <a class="text-chart  font-bold hover:text-chart flex items-center drop-shadow-bittersweet">
           <font-awesome-icon class="me-2 text-5xl" :icon="['fas', 'mobile']" />
           <span class="min-[320px]:text-[12px] md:text-lg ">
-             +63 927 8738 525
+              +63 927 8738 525
           </span>
         </a>
       </div>
