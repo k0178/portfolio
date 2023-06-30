@@ -46,7 +46,6 @@
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'github']" />
       <label class="text-chart drop-shadow-bittersweet font-bold ">MySQL</label>
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fas', 'c']" />
-
     </div>
   </div>
 
@@ -60,18 +59,47 @@
         <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'microsoft']" />
         <label  class="text-bittersweet  min-[320px]:text-sm text-xl">Microsoft Technology Associate: Database Administration Fundamentals</label>
       </div>
-
     </div>
   </div>
+
+  <div class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
+    <div class="border flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
+    <label for="me" class="text-6xl ml-8 min-[320px]:break-all text-bittersweet exact-active-link font-bold">Education</label>
+  </div>
+  <div class="flex justify-center sm:px-16 min-[320px]:px-16 lg:px-48">
+    <ol class="relative border-l-2 border-dashed border-bittersweet dark:border-gray-700 mb-16 ">
+      <li class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-1.5 dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-chart">March 2013</time>
+        <h3 class="text-2xl font-semibold text-bittersweet">San Jose Elementary School</h3>
+        <p class="mb-4 text-base font-normal text-chart">Finished Primary School in a local elementary school located at Tendido St. Cor. Mauban Quezon City. Achieved the 4th Honorable Mention with the class of 2012-2013.</p>
+      </li>
+      <li class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-1.5 dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-chart">March 2019</time>
+        <h3 class="text-2xl font-semibold text-bittersweet">Siena College Quezon City</h3>
+        <p class="mb-4 text-base font-normal text-chart">Finished his secondary and Senior Highschool in a Catholic-Dominican school managed by the Sisters of St. Catherine of Siena located at Del Monte Ave., Quezon City.</p>
+      </li>
+      <li class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-1.5 dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-chart">July 2023</time>
+        <h3 class="text-2xl font-semibold text-bittersweet">Adamson University</h3>
+        <p class="mb-4 text-base font-normal text-chart">With his Bachelor's degree in Information Technology, he finished his undergraduate studies and managed to develop his skills in web development.
+          Also developed a capstone project entitled "True North Auctions: A web-based apparel-centered Online Auction system", which is done for the benefit of True North Garments in Navotas.
+        </p>
+      </li>
+    </ol>
+
+  </div>
+
 
 </template>
 
 <script>
+import Image from "./components/Image.vue";
 export default {
-  name: "About"
+  name: "About",
+  components: {Image}
 }
 </script>
 
-<style>
-
-</style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen h-screen">
+  <div class="border-4 border-dashed border-chart ">
     <nav class="break-words mt-12">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
         <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center ml-3 text-sm text-white-500 text-bittersweet md:hidden hover:text-chart focus:outline-none  dark:text-gray-400" aria-controls="navbar-default" aria-expanded="false">
@@ -24,18 +24,21 @@
         </div>
       </div>
     </nav>
-    <hr class="border-t-4 border-dashed border-chart drop-shadow-bittersweet my-8 mx-16">
-        <router-view v-slot="{ Component }" >
-          <Transition name="fade">
-            <component :is="Component" />
-          </Transition>
-        </router-view>
+    <hr class="border-t-4 border-dashed border-chart drop-shadow-bittersweet my-8">
+
+      <router-view v-slot="{ Component }" >
+        <Transition name="fade">
+          <component :is="Component" />
+        </Transition>
+      </router-view>
+
+
     <footer class="pb-16 px-16">
-      <p class="text-[12px] text-chart text-center sm:text-center dark:text-gray-400">© 2023 Developed by Kenneth Leanda. All Rights Reserved.
+      <p class="text-[12px] text-chart text-center sm:text-center dark:text-gray-400"> <br>Developed by Kenneth Leanda. <br>© 2023 All Rights Reserved.
       </p>
     </footer>
-  </div>
 
+  </div>
 </template>
 
 <script setup>
