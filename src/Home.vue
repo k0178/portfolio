@@ -5,7 +5,7 @@
         Portfolio
       </h1>
     <div class="">
-      <p class="text-[12px] tracking-[10px] text-bittersweet text-center p-8 mb-10">Web Development & UI / UX Design</p>
+      <p class="text-lg uppercase tracking-[15px] text-chart text-center p-8 mb-10">Web Development & UI / UX Design</p>
     </div>
   </div>
 
