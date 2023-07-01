@@ -1,7 +1,7 @@
 <template>
   <div class="flex-wrap" >
 
-      <h1 class=" text-[180px] break-all mx-16 uppercase text-center font-bold text-chart break-words drop-shadow-bittersweet ">
+      <h1 class="portfolio text-[180px] break-all mx-16 uppercase text-center font-bold text-chart break-words">
         Portfolio
       </h1>
     <div class="">
