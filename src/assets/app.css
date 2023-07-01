@@ -3,6 +3,26 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    cursor: crosshair;
+}
+.cross {
+    background: red;
+    height: 100px;
+    position: relative;
+    width: 20px;
+}
+.cross:after {
+    background: red;
+    content: "";
+    height: 20px;
+    left: -40px;
+    position: absolute;
+    top: 40px;
+    width: 100px;
+}
+
+
 .active {
     box-shadow: 10px 10px 0 rgb(224, 255, 79);
 }
@@ -51,7 +71,6 @@
 
 .portfolio:hover{
     animation-play-state: paused;
-    cursor: pointer;
 }
 
 @keyframes changeColor {
