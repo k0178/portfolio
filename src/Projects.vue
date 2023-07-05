@@ -5,17 +5,17 @@
     </h1>
   </div>
   <div class="p-16">
-    <p class="text-bittersweet text-4xl exact-active-link text-center font-bold"> TRUE NORTH AUCTIONS</p>
-    <div class="hover:animate-bounce flex justify-center mt-4 ">
+    <p v-motion-pop class="text-bittersweet text-4xl exact-active-link text-center font-bold"> TRUE NORTH AUCTIONS</p>
+    <div v-motion-slide-left class="hover:animate-bounce flex justify-center mt-4 ">
       <a href="https://github.com/k0178/TrueNorth" class="text-chart flex  me-2 items-center font-bold hover:text-chart drop-shadow-bittersweet">
         <font-awesome-icon class="me-2 text-xl" :icon="['fab', 'github']" />
         <span class="min-[320px]:text-[12px] md:text-md ">
-             GitHub Repository
+            GitHub Repository
           </span>
       </a>
     </div>
   <div class="align-middle w-full flex justify-center mt-4">
-    <p class="text-center text-sm sm:break-words text-chart px-4 md:w-[600px] mb-16 ">
+    <p v-motion-slide-left class="text-center text-sm sm:break-words text-chart px-4 md:w-[600px] mb-16 ">
       An Apparel-centered Auction System for the benefit of the True North Garments in Navotas City, Philippines. The capstone project includes different modules
       that fit the company's needs.
       <br><br>
@@ -70,9 +70,9 @@
     </swiper>
 
     <hr class="border-t-4 border-dashed border-chart drop-shadow-bittersweet mb-16">
-    <p class="text-bittersweet text-4xl exact-active-link text-center font-bold"> DUMAGAT</p>
+    <p  v-motion-pop-visible class="text-bittersweet text-4xl exact-active-link text-center font-bold"> DUMAGAT</p>
     <div class="align-middle w-full flex justify-center mt-4">
-      <p class="text-center text-sm sm:break-words text-chart px-4 md:w-[600px] mb-16 ">
+      <p  v-motion-slide-visible-left class="text-center text-sm sm:break-words text-chart px-4 md:w-[600px] mb-16 ">
         A developer for the interactive website for the preservation and showcase of the Dumagat-Remontado's culture.
         <br><br>
         Dumagat/Remontados belong to an indigenous community in Rizal Province, Philippines.
@@ -83,34 +83,10 @@
       </p>
     </div>
 
-    <!--    <p class="text-bittersweet text-1xl text-center mb-10 font-bold"> Swipe to see more!!!</p>-->
-
-<!--    <swiper class="mySwiper">-->
-<!--      <swiper-slide class="">-->
-<!--        <div class="align-middle w-full flex justify-center">-->
-<!--          <img src="/src/assets/img/truenorth1.png" alt="" class="drop-shadow-bittersweet w-2/3 h-2/3">-->
-<!--        </div>-->
-<!--      </swiper-slide>-->
-<!--      <swiper-slide>-->
-<!--        <div class="align-middle w-full flex justify-center">-->
-<!--          <img src="/src/assets/img/truenorth2.png" alt="" class="drop-shadow-bittersweet w-2/3 h-2/3">-->
-<!--        </div>-->
-<!--      </swiper-slide>-->
-<!--      <swiper-slide>-->
-<!--        <div class="align-middle w-full flex justify-center">-->
-<!--          <img src="/src/assets/img/truenorth3.jpeg" alt="" class="drop-shadow-bittersweet w-2/3 h-2/3">-->
-<!--        </div>-->
-<!--      </swiper-slide>-->
-<!--      <swiper-slide>-->
-<!--        <div class="align-middle w-full flex justify-center">-->
-<!--          <img src="/src/assets/img/truenorth4.jpeg" alt="" class="drop-shadow-bittersweet w-2/3 h-2/3">-->
-<!--        </div>-->
-<!--      </swiper-slide>-->
-<!--    </swiper>-->
     <hr class="border-t-4 border-dashed border-chart drop-shadow-bittersweet mb-16">
-    <p class="text-bittersweet text-4xl exact-active-link text-center font-bold"> GREEN AP</p>
+    <p v-motion-pop-visible class="text-bittersweet text-4xl exact-active-link text-center font-bold"> GREEN AP</p>
     <div class="align-middle w-full flex justify-center mt-4">
-      <p class="text-center text-sm sm:break-words text-chart px-4 md:w-[600px] mb-16 ">
+      <p v-motion-slide-visible-left class="text-center text-sm sm:break-words text-chart px-4 md:w-[600px] mb-16 ">
         Green Architecture Advocacy Philippines (Green AP) is a civic non-profit organization that is concerned about the environment
         and takes action by promoting sustainable development of the built environment.
       </p>

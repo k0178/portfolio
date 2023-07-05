@@ -6,22 +6,6 @@
 *{
     cursor: crosshair;
 }
-.cross {
-    background: red;
-    height: 100px;
-    position: relative;
-    width: 20px;
-}
-.cross:after {
-    background: red;
-    content: "";
-    height: 20px;
-    left: -40px;
-    position: absolute;
-    top: 40px;
-    width: 100px;
-}
-
 
 .active {
     box-shadow: 10px 10px 0 rgb(224, 255, 79);
@@ -188,3 +172,4 @@ body{
     background-size: 3em 3em;
 
 }
+

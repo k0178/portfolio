@@ -4,16 +4,20 @@
       About Me
     </h1>
   </div>
+
   <div class="sm:inline-block xl:grid grid-cols-2  gap-4 grid-flow-col align-middle py-16 m-16 ">
-    <p class="text-left sm:break-words p-4 text-bittersweet font-bold z-10 mb-16">
-      An IT graduate from Adamson University who is always able to quickly grasp
-      new concepts and is eager to learn the ins and outs of the Information Technology industry.
-      <br><br>
-      Helped develop website projects that cater to business functionalities such as customer relationship management,
-      point of sale, customer transactions, and human resources. Passionate about building and designing professional websites. <br><br>
-      Currently seeking a firm with a group of hardworking professionals that are great to collaborate with and hopefully grow as a professional in the industry.
-    </p>
-    <div class="justify-center items-center flex space-x-16 sm:mt-8 xl:mt-0  2xl:inline-flex min-[320px]:inline-block sm:inline-flex md:inline-flex">
+
+      <p v-motion-pop class="text-left sm:break-words p-4 text-bittersweet font-bold z-10 mb-16">
+        An IT graduate from Adamson University who is always able to quickly grasp
+        new concepts and is eager to learn the ins and outs of the Information Technology industry.
+        <br><br>
+        Helped develop website projects that cater to business functionalities such as customer relationship management,
+        point of sale, customer transactions, and human resources. Passionate about building and designing professional websites. <br><br>
+        Currently seeking a firm with a group of hardworking professionals that are great to collaborate with and hopefully grow as a professional in the industry.
+      </p>
+
+
+    <div v-motion-pop class="justify-center items-center flex space-x-16 sm:mt-8 xl:mt-0  2xl:inline-flex min-[320px]:inline-block sm:inline-flex md:inline-flex">
       <div class="relative sm:mb-16 min-[320px]:mb-16">
         <img src="/src/assets/img/img7.jpg" id="me" alt="" class="drop-shadow-bittersweet z-0 grayscale hover:grayscale-0 " width="300" height="300">
         <div class="absolute -left-3 -top-3">
@@ -28,12 +32,12 @@
     </div>
 
   </div>
-  <div class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
+  <div  v-motion-pop-visible class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
     <div class="border flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
     <label for="me" class="text-6xl ml-8 text-bittersweet exact-active-link font-bold">Tech Stack</label>
   </div>
-  <div class="flex justify-center">
-    <div class="grid md:grid-cols-4 min-[320px]:grid-cols-3 sm:grid-cols-2 grid-flow-row mx-16 mb-16 gap-y-16 gap-x-16 justify-items-center items-center ">
+  <div  class="flex justify-center">
+    <div v-motion-slide-visible-left class="grid md:grid-cols-4 min-[320px]:grid-cols-3 sm:grid-cols-2 grid-flow-row mx-16 mb-16 gap-y-16 gap-x-16 justify-items-center items-center ">
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'laravel']" />
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'php']" />
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'js']" />
@@ -49,11 +53,11 @@
     </div>
   </div>
 
-  <div class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
+  <div v-motion-slide-visible-left class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
     <label for="me" class="text-6xl mr-8 min-[320px]:break-all text-bittersweet exact-active-link font-bold">Certifications</label>
     <div class="border flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
   </div>
-  <div class="flex justify-center">
+  <div v-motion-slide-visible-left class="flex justify-center">
     <div class="grid md:grid-cols-4 min-[320px]:grid-cols-1 sm:grid-cols-2 grid-flow-row mx-16 mb-16 gap-y-16 gap-x-16 justify-items-center items-center ">
       <div class="flex space-x-4 items-center col-start-2 col-span-2">
         <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'microsoft']" />
@@ -62,26 +66,26 @@
     </div>
   </div>
 
-  <div class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
+  <div v-motion-slide-visible-left class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
     <div class="border flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
     <label for="me" class="text-6xl ml-8 min-[320px]:break-all text-bittersweet exact-active-link font-bold">Education</label>
   </div>
   <div class="flex justify-center sm:px-16 min-[320px]:px-16 lg:px-48">
     <ol class="relative border-l-2 border-dashed border-bittersweet dark:border-gray-700 mb-16 ">
-      <li class="mb-10 ml-4">
-        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-1.5 dark:border-gray-900 dark:bg-gray-700"></div>
+      <li v-motion-slide-visible-left class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
         <time class="mb-1 text-sm font-normal leading-none text-chart">March 2013</time>
         <h3 class="text-2xl font-semibold text-bittersweet">San Jose Elementary School</h3>
         <p class="mb-4 text-base font-normal text-chart">Finished Primary School in a local elementary school located at Tendido St. Cor. Mauban Quezon City. Achieved the 4th Honorable Mention with the class of 2012-2013.</p>
       </li>
-      <li class="mb-10 ml-4">
-        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-1.5 dark:border-gray-900 dark:bg-gray-700"></div>
+      <li v-motion-slide-visible-left class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
         <time class="mb-1 text-sm font-normal leading-none text-chart">March 2019</time>
         <h3 class="text-2xl font-semibold text-bittersweet">Siena College Quezon City</h3>
         <p class="mb-4 text-base font-normal text-chart">Finished his secondary and Senior Highschool in a Catholic-Dominican school managed by the Sisters of St. Catherine of Siena located at Del Monte Ave., Quezon City.</p>
       </li>
-      <li class="mb-10 ml-4">
-        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-1.5 dark:border-gray-900 dark:bg-gray-700"></div>
+      <li v-motion-slide-visible-left class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
         <time class="mb-1 text-sm font-normal leading-none text-chart">July 2023</time>
         <h3 class="text-2xl font-semibold text-bittersweet">Adamson University</h3>
         <p class="mb-4 text-base font-normal text-chart">With his Bachelor's degree in Information Technology, he finished his undergraduate studies and managed to develop his skills in web development.
@@ -95,11 +99,14 @@
 
 </template>
 
-<script>
+<script defer>
 import Image from "./components/Image.vue";
 export default {
   name: "About",
   components: {Image}
 }
+
+
 </script>
+
 

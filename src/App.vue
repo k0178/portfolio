@@ -33,7 +33,7 @@
       </router-view>
 
 
-    <footer class="pb-16 px-16">
+    <footer class="hide pb-16 px-16">
       <p class="text-[12px] text-chart text-center sm:text-center dark:text-gray-400"> <br>Developed by Kenneth Leanda. <br>© 2023 All Rights Reserved.
       </p>
     </footer>
@@ -52,15 +52,5 @@ onMounted(() => {
 
 </script>
 
-<style lang="scss">
-.fade-enter-from,
-.fade-leave-to{
-  opacity: 0;
-}
 
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity .3s;
-}
-</style>
 
