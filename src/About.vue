@@ -44,12 +44,12 @@
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'bootstrap']" />
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'figma']" />
       <label class="text-chart drop-shadow-bittersweet font-bold ">Tailwind CSS</label>
+      <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'html5']" />
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'css3-alt']" />
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'vuejs']" />
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'react']" />
       <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'github']" />
       <label class="text-chart drop-shadow-bittersweet font-bold ">MySQL</label>
-      <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fas', 'c']" />
     </div>
   </div>
 
@@ -58,11 +58,15 @@
     <div class="border flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
   </div>
   <div v-motion-slide-visible-left class="flex justify-center">
-    <div class="grid md:grid-cols-4 min-[320px]:grid-cols-1 sm:grid-cols-2 grid-flow-row mx-16 mb-16 gap-y-16 gap-x-16 justify-items-center items-center ">
-      <div class="flex space-x-4 items-center col-start-2 col-span-2">
-        <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'microsoft']" />
-        <label  class="text-bittersweet  min-[320px]:text-sm text-xl">Microsoft Technology Associate: Database Administration Fundamentals</label>
+    <div class="grid md:grid-cols-1 min-[320px]:grid-cols-1 sm:grid-cols-2 grid-flow-row mx-16 mb-16 gap-y-16 gap-x-16 justify-items-center items-center ">
+      <div class="text-center">
+        <div class="flex space-x-4 items-center col-start-2 col-span-2">
+          <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'microsoft']" />
+          <label  class="text-bittersweet  min-[320px]:text-sm lg:text-xl font-bold">Microsoft Technology Associate: Database Administration Fundamentals</label>
+        </div>
+        <button  class="bg-none rounded-full px-2 mt-3  text-chart font-semibold hover:drop-shadow-bittersweet border-2 border-chart" onclick="location.href='https://www.credly.com/badges/790c00c1-979e-4568-8dd1-74407339605c/public_url'"><font-awesome-icon :icon="['fas', 'certificate']" /> Show Credential</button>
       </div>
+
     </div>
   </div>
 
@@ -74,9 +78,11 @@
     <ol class="relative border-l-2 border-dashed border-bittersweet dark:border-gray-700 mb-16 ">
       <li v-motion-slide-visible-left class="mb-10 ml-4">
         <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
-        <time class="mb-1 text-sm font-normal leading-none text-chart">March 2013</time>
-        <h3 class="text-2xl font-semibold text-bittersweet">San Jose Elementary School</h3>
-        <p class="mb-4 text-base font-normal text-chart">Finished Primary School in a local elementary school located at Tendido St. Cor. Mauban Quezon City. Achieved the 4th Honorable Mention with the class of 2012-2013.</p>
+        <time class="mb-1 text-sm font-normal leading-none text-chart">July 2023</time>
+        <h3 class="text-2xl font-semibold text-bittersweet">Adamson University</h3>
+        <p class="mb-4 text-base font-normal text-chart">Graduated as Magna Cum Laude with his Bachelor's degree in Information Technology, he finished his undergraduate studies and managed to develop his skills in web development.
+          Also developed a capstone project entitled "True North Auctions: A web-based apparel-centered Online Auction system", which is done for the benefit of True North Garments in Navotas.
+        </p>
       </li>
       <li v-motion-slide-visible-left class="mb-10 ml-4">
         <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
@@ -86,12 +92,12 @@
       </li>
       <li v-motion-slide-visible-left class="mb-10 ml-4">
         <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
-        <time class="mb-1 text-sm font-normal leading-none text-chart">July 2023</time>
-        <h3 class="text-2xl font-semibold text-bittersweet">Adamson University</h3>
-        <p class="mb-4 text-base font-normal text-chart">With his Bachelor's degree in Information Technology, he finished his undergraduate studies and managed to develop his skills in web development.
-          Also developed a capstone project entitled "True North Auctions: A web-based apparel-centered Online Auction system", which is done for the benefit of True North Garments in Navotas.
-        </p>
+        <time class="mb-1 text-sm font-normal leading-none text-chart">March 2013</time>
+        <h3 class="text-2xl font-semibold text-bittersweet">San Jose Elementary School</h3>
+        <p class="mb-4 text-base font-normal text-chart">Finished Primary School in a local elementary school located at Tendido St. Cor. Mauban Quezon City. Achieved the 4th Honorable Mention with the class of 2012-2013.</p>
       </li>
+
+
     </ol>
 
   </div>

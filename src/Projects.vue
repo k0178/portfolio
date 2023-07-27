@@ -85,6 +85,14 @@
 
     <hr class="border-t-4 border-dashed border-chart drop-shadow-bittersweet mb-16">
     <p v-motion-pop-visible class="text-bittersweet text-4xl exact-active-link text-center font-bold"> GREEN AP</p>
+    <div v-motion-slide-visible-left class="hover:animate-bounce flex justify-center mt-4 ">
+      <a href="https://greenap-ph.com" class="text-chart flex  me-2 items-center font-bold hover:text-chart drop-shadow-bittersweet">
+        <font-awesome-icon class="me-2 text-xl" :icon="['fas', 'globe']" />
+        <span class="min-[320px]:text-[12px] md:text-md ">
+            Website
+          </span>
+      </a>
+    </div>
     <div class="align-middle w-full flex justify-center mt-4">
       <p v-motion-slide-visible-left class="text-center text-sm sm:break-words text-chart px-4 md:w-[600px] mb-16 ">
         Green Architecture Advocacy Philippines (Green AP) is a civic non-profit organization that is concerned about the environment

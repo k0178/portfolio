@@ -1,5 +1,5 @@
 <template>
-  <div class="border-4 border-dashed border-chart ">
+  <div class="border-4 border-dashed border-chart">
     <nav class="break-words mt-12">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
         <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center ml-3 text-sm text-white-500 text-bittersweet md:hidden hover:text-chart focus:outline-none  dark:text-gray-400" aria-controls="navbar-default" aria-expanded="false">
@@ -37,8 +37,8 @@
       <p class="text-[12px] text-chart text-center sm:text-center dark:text-gray-400"> <br>Developed by Kenneth Leanda. <br>© 2023 All Rights Reserved.
       </p>
     </footer>
-
   </div>
+
 </template>
 
 <script setup>
