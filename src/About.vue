@@ -110,6 +110,7 @@ import Image from "./components/Image.vue";
 export default {
   name: "About",
   components: {Image}
+  
 }
 
 
