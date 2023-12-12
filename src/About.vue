@@ -1,5 +1,5 @@
 <template>
-  <div class="relative about">
+  <div class="relative">
     <h1 class="text-[150px] text-right absolute z-[-2]  sm:break-words break-all opacity-20  uppercase font-bold text-chart drop-shadow-bittersweet ">
       About Me
     </h1>
@@ -32,7 +32,9 @@
     </div>
 
   </div>
-  <div  v-motion-pop-visible class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
+  
+  <div  v-motion-pop-visible class="flex relative content-stretch min-[320px]:m-8 md:m-16 text-center">
+   
     <div class="border flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
     <label for="me" class="text-6xl ml-8 text-bittersweet exact-active-link font-bold">Tech Stack</label>
   </div>
@@ -96,24 +98,39 @@
         <h3 class="text-2xl font-semibold text-bittersweet">San Jose Elementary School</h3>
         <p class="mb-4 text-base font-normal text-chart">Finished Primary School in a local elementary school located at Tendido St. Cor. Mauban Quezon City. Achieved the 4th Honorable Mention with the class of 2012-2013.</p>
       </li>
-
-
     </ol>
-
   </div>
+
+  <div v-motion-slide-visible-left class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
+    <label for="me" class="text-6xl min-[320px]:break-all text-bittersweet exact-active-link font-bold">Events</label>
+    <div class="border ms-8 flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
+  </div>
+  <div class="flex text-right sm:px-16 min-[320px]:px-16 lg:px-48">
+    <ol class="relative pe-[1.05em] border-r-2 border-dashed border-bittersweet dark:border-gray-700 mb-16 ">
+      <li v-motion-slide-visible-left class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -right-6 dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-chart">September 2023</time>
+        <h3 class="text-2xl font-semibold text-bittersweet mb-3">UX+ Conference 2023</h3>
+        <p class="mb-4 text-base font-normal text-chart">UX+ Conference 2023 is a 1-day, in-person conference for aspiring and seasoned User Experience professionals. It's a paid in-person event, happening on Sep. 17, 2023, held at SMX Convention Center Manila, Philippines.
+In its 4th year, we've invited the most renowned UX, design, and technology practitioners in the world to speak and share their learnings with the global design community.
+        </p>
+
+        <p class=" italic text-bittersweet text-xs">https://2023.uxpl.us/#faqs</p>
+      </li>
+      <li v-motion-slide-visible-left class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -right-6 dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-chart">June 2022</time>
+        <h3 class="text-2xl font-semibold text-bittersweet mb-3">3rd Philippine Skilling Summit</h3>
+        <p class="mb-4 text-base font-normal text-chart">The Philippine Skilling Summit is a free 3-day webinar designed to give attendees a comprehensive look at the most sought-after and highly profitable skills. </p>
+      </li>
+    </ol>
+  </div>
+
+
 
 
 </template>
 
-<script defer>
-import Image from "./components/Image.vue";
-export default {
-  name: "About",
-  components: {Image}
-  
-}
 
-
-</script>
 
 
