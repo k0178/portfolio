@@ -66,7 +66,7 @@
           <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'microsoft']" />
           <label  class="text-bittersweet  min-[320px]:text-sm lg:text-xl font-bold">Microsoft Technology Associate: Database Administration Fundamentals</label>
         </div>
-        <button  class="bg-none rounded-full px-2 mt-3  text-chart font-semibold hover:drop-shadow-bittersweet border-2 border-chart" onclick="location.href='https://www.credly.com/badges/790c00c1-979e-4568-8dd1-74407339605c/public_url'"><font-awesome-icon :icon="['fas', 'certificate']" /> Show Credential</button>
+        <button  class="bg-none rounded-full px-3 py-1 mt-3  text-chart font-semibold hover:drop-shadow-bittersweet border-2 border-chart" onclick="location.href='https://www.credly.com/badges/790c00c1-979e-4568-8dd1-74407339605c/public_url'"><font-awesome-icon :icon="['fas', 'certificate']" /> Show Credential</button>
       </div>
 
     </div>
@@ -77,7 +77,7 @@
     <label for="me" class="text-6xl ml-8 min-[320px]:break-all text-bittersweet exact-active-link font-bold">Education</label>
   </div>
   <div class="flex justify-center sm:px-16 min-[320px]:px-16 lg:px-48">
-    <ol class="relative border-l-2 border-dashed border-bittersweet dark:border-gray-700 mb-16 ">
+    <ol class="relative border-l-2 ps-[0.05em] border-dashed border-bittersweet dark:border-gray-700 mb-16 ">
       <li v-motion-slide-visible-left class="mb-10 ml-4">
         <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
         <time class="mb-1 text-sm font-normal leading-none text-chart">July 2023</time>
@@ -123,6 +123,40 @@ In its 4th year, we've invited the most renowned UX, design, and technology prac
         <h3 class="text-2xl font-semibold text-bittersweet mb-3">3rd Philippine Skilling Summit</h3>
         <p class="mb-4 text-base font-normal text-chart">The Philippine Skilling Summit is a free 3-day webinar designed to give attendees a comprehensive look at the most sought-after and highly profitable skills. </p>
       </li>
+    </ol>
+  </div>
+
+  <div v-motion-slide-visible-left class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
+    <div class="border flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
+    <label for="me" class="text-6xl ml-8 min-[320px]:break-all text-bittersweet exact-active-link font-bold">Employment</label>
+  </div>
+  <div class="flex justify-center sm:px-16 min-[320px]:px-16 lg:px-48">
+    <ol class="relative border-l-2 ps-[0.05em] border-dashed border-bittersweet dark:border-gray-700 mb-16 ">
+      <li v-motion-slide-visible-left class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-chart">August 2023 - Present</time>
+        <div class="  ">
+          <div class="">
+            <h3 class="text-2xl font-semibold text-bittersweet lg:me-3 sm:me-0">LiveCrossing PH (Digital Studio Co., Ltd.)</h3>
+            <p class="text-chart text-sm my-2">A subsidiary company of Digital Studio Co., Ltd. based in Japan and part of the development of Live Commerce and marketing hub across Asia in Makati City, Philippines. Locally developing solutions for inventory linkage such as eBay, Amazon and Lazada.</p>
+          </div>
+          <p class="mb-4 text-xl font-bold text-bittersweet">as UI / UX Web Designer</p>
+          <button class="bg-none lg:my-0 min-[320px]:my-3 sm:my-3 rounded-full px-3 py-1 text-chart font-semibold hover:drop-shadow-bittersweet border-2 border-chart" onclick="location.href='https://www.ds-style.com/'"><font-awesome-icon :icon="['fas', 'globe']" /> Visit</button>
+        </div>
+        
+      </li>
+      <li v-motion-slide-visible-left class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-chart">February 2023 - May 2023</time>
+        <div class=" ">
+          <h3 class="text-2xl font-semibold text-bittersweet lg:me-3 sm:me-0">ROC.PH Digital Marketing Services</h3>
+          <p class="text-chart text-sm my-2">A successful start-up of a Digital Marketing Company based in Cavite, Philippines that offers unlimited website branding and marketing services throughout the country. </p>
+          <p class="mb-4 text-xl font-bold text-bittersweet">as Web Developer Intern</p>
+          <button class="bg-none lg:my-0 min-[320px]:my-3 sm:my-3c rounded-full px-3 py-1 text-chart font-semibold hover:drop-shadow-bittersweet border-2 border-chart" onclick="location.href='https://roc.ph/'"><font-awesome-icon :icon="['fas', 'globe']" /> Visit</button>
+        </div>
+        
+      </li>
+    
     </ol>
   </div>
 
