@@ -38,6 +38,22 @@
           </span>
           </a>
         </div>
+        <div v-motion-pop  class="hover:animate-bounce">
+          <a class="text-chart  font-bold hover:text-chart flex items-center drop-shadow-bittersweet">
+            <font-awesome-icon class="me-2 text-5xl" :icon="['fab', 'viber']" />
+            <span class="min-[320px]:text-[12px] md:text-lg ">
+              +63 927 8738 525
+          </span>
+          </a>
+        </div>
+        <div v-motion-pop  class="hover:animate-bounce">
+          <a href="" class="text-chart flex  me-2 items-center font-bold hover:text-chart drop-shadow-bittersweet">
+            <font-awesome-icon class="me-2 text-5xl" :icon="['fab', 'slack']" />
+            <span class="min-[320px]:text-[12px] md:text-lg ">
+              leandakenneth@gmail.com
+          </span>
+          </a>
+        </div>
       </div>
     </div>
   </div>

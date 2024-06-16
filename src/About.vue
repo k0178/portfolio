@@ -1,5 +1,5 @@
 <template>
-  <div class="relative about">
+  <div class="relative">
     <h1 class="text-[150px] text-right absolute z-[-2]  sm:break-words break-all opacity-20  uppercase font-bold text-chart drop-shadow-bittersweet ">
       About Me
     </h1>
@@ -29,8 +29,10 @@
       </div>
     </div>
   </div>
-  <div v-motion-slide-visible-left class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
-    <div class="flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
+  
+  <div  v-motion-pop-visible class="flex relative content-stretch min-[320px]:m-8 md:m-16 text-center">
+   
+    <div class="border flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
     <label for="me" class="text-6xl ml-8 text-bittersweet exact-active-link font-bold">Tech Stack</label>
   </div>
   <div  class="flex justify-center">
@@ -61,7 +63,7 @@
           <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'microsoft']" />
           <label  class="text-bittersweet  min-[320px]:text-sm lg:text-xl font-bold">Microsoft Technology Associate: Database Administration Fundamentals</label>
         </div>
-        <button  class="bg-none rounded-full py-2 px-4 mt-3  text-chart font-semibold hover:drop-shadow-bittersweet border-2 border-chart" onclick="location.href='https://www.credly.com/badges/790c00c1-979e-4568-8dd1-74407339605c/public_url'"><font-awesome-icon :icon="['fas', 'certificate']" /> Show Credential</button>
+        <button  class="bg-none rounded-full px-3 py-1 mt-3  text-chart font-semibold hover:drop-shadow-bittersweet border-2 border-chart" onclick="location.href='https://www.credly.com/badges/790c00c1-979e-4568-8dd1-74407339605c/public_url'"><font-awesome-icon :icon="['fas', 'certificate']" /> Show Credential</button>
       </div>
 
     </div>
@@ -72,7 +74,7 @@
     <label for="me" class="text-6xl ml-8 min-[320px]:break-all text-bittersweet exact-active-link font-bold">Education</label>
   </div>
   <div class="flex justify-center sm:px-16 min-[320px]:px-16 lg:px-48">
-    <ol class="relative border-l-2 border-dashed border-bittersweet dark:border-gray-700 mb-16 ">
+    <ol class="relative border-l-2 ps-[0.05em] border-dashed border-bittersweet dark:border-gray-700 mb-16 ">
       <li v-motion-slide-visible-left class="mb-10 ml-4">
         <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
         <time class="mb-1 text-sm font-normal leading-none text-chart">July 2023</time>
@@ -93,24 +95,73 @@
         <h3 class="text-2xl font-semibold text-bittersweet">San Jose Elementary School</h3>
         <p class="mb-4 text-base font-normal text-chart">Finished Primary School in a local elementary school located at Tendido St. Cor. Mauban Quezon City. Achieved the 4th Honorable Mention with the class of 2012-2013.</p>
       </li>
-
-
     </ol>
-
   </div>
+
+  <div v-motion-slide-visible-left class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
+    <label for="me" class="text-6xl min-[320px]:break-all text-bittersweet exact-active-link font-bold">Events</label>
+    <div class="border ms-8 flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
+  </div>
+  <div class="flex text-right sm:px-16 min-[320px]:px-16 lg:px-48">
+    <ol class="relative pe-[1.05em] border-r-2 border-dashed border-bittersweet dark:border-gray-700 mb-16 ">
+      <li v-motion-slide-visible-left class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -right-6 dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-chart">September 2023</time>
+        <h3 class="text-2xl font-semibold text-bittersweet mb-3">UX+ Conference 2023</h3>
+        <p class="mb-4 text-base font-normal text-chart">UX+ Conference 2023 is a 1-day, in-person conference for aspiring and seasoned User Experience professionals. It's a paid in-person event, happening on Sep. 17, 2023, held at SMX Convention Center Manila, Philippines.
+In its 4th year, we've invited the most renowned UX, design, and technology practitioners in the world to speak and share their learnings with the global design community.
+        </p>
+
+        <p class=" italic text-bittersweet text-xs">https://2023.uxpl.us/#faqs</p>
+      </li>
+      <li v-motion-slide-visible-left class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -right-6 dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-chart">June 2022</time>
+        <h3 class="text-2xl font-semibold text-bittersweet mb-3">3rd Philippine Skilling Summit</h3>
+        <p class="mb-4 text-base font-normal text-chart">The Philippine Skilling Summit is a free 3-day webinar designed to give attendees a comprehensive look at the most sought-after and highly profitable skills. </p>
+      </li>
+    </ol>
+  </div>
+
+  <div v-motion-slide-visible-left class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
+    <div class="border flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
+    <label for="me" class="text-6xl ml-8 min-[320px]:break-all text-bittersweet exact-active-link font-bold">Employment</label>
+  </div>
+  <div class="flex justify-center sm:px-16 min-[320px]:px-16 lg:px-48">
+    <ol class="relative border-l-2 ps-[0.05em] border-dashed border-bittersweet dark:border-gray-700 mb-16 ">
+      <li v-motion-slide-visible-left class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-chart">August 2023 - Present</time>
+        <div class="  ">
+          <div class="">
+            <h3 class="text-2xl font-semibold text-bittersweet lg:me-3 sm:me-0">LiveCrossing PH (Digital Studio Co., Ltd.)</h3>
+            <p class="text-chart text-sm my-2">A subsidiary company of Digital Studio Co., Ltd. based in Japan and part of the development of Live Commerce and marketing hub across Asia in Makati City, Philippines. Locally developing solutions for inventory linkage such as eBay, Amazon and Lazada.</p>
+          </div>
+          <p class="mb-4 text-xl font-bold text-bittersweet">as UI / UX Web Designer</p>
+          <button class="bg-none lg:my-0 min-[320px]:my-3 sm:my-3 rounded-full px-3 py-1 text-chart font-semibold hover:drop-shadow-bittersweet border-2 border-chart" onclick="location.href='https://www.ds-style.com/'"><font-awesome-icon :icon="['fas', 'globe']" /> Visit</button>
+        </div>
+        
+      </li>
+      <li v-motion-slide-visible-left class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-chart rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
+        <time class="mb-1 text-sm font-normal leading-none text-chart">February 2023 - May 2023</time>
+        <div class=" ">
+          <h3 class="text-2xl font-semibold text-bittersweet lg:me-3 sm:me-0">ROC.PH Digital Marketing Services</h3>
+          <p class="text-chart text-sm my-2">A successful start-up of a Digital Marketing Company based in Cavite, Philippines that offers unlimited website branding and marketing services throughout the country. </p>
+          <p class="mb-4 text-xl font-bold text-bittersweet">as Web Developer Intern</p>
+          <button class="bg-none lg:my-0 min-[320px]:my-3 sm:my-3c rounded-full px-3 py-1 text-chart font-semibold hover:drop-shadow-bittersweet border-2 border-chart" onclick="location.href='https://roc.ph/'"><font-awesome-icon :icon="['fas', 'globe']" /> Visit</button>
+        </div>
+        
+      </li>
+    
+    </ol>
+  </div>
+
+
 
 
 </template>
 
-<script defer>
-import Image from "./components/Image.vue";
-export default {
-  name: "About",
-  components: {Image}
-  
-}
 
-
-</script>
 
 
