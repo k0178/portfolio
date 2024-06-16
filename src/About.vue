@@ -5,17 +5,15 @@
     </h1>
   </div>
 
-  <div class="sm:inline-block xl:grid grid-cols-2  gap-4 grid-flow-col align-middle py-16 m-16 ">
+  <div class="sm:inline-block xl:grid grid-cols-2 items-center gap-4 grid-flow-col align-middle py-16 m-16 ">
 
-      <p v-motion-pop class="text-left sm:break-words p-4 text-bittersweet font-bold z-10 mb-16">
-        An IT graduate from Adamson University who is always able to quickly grasp
-        new concepts and is eager to learn the ins and outs of the Information Technology industry.
-        <br><br>
-        Helped develop website projects that cater to business functionalities such as customer relationship management,
-        point of sale, customer transactions, and human resources. Passionate about building and designing professional websites. <br><br>
-        Currently seeking a firm with a group of hardworking professionals that are great to collaborate with and hopefully grow as a professional in the industry.
-      </p>
-
+    <p v-motion-pop class="text-left sm:break-words p-4 text-bittersweet font-bold z-10 mb-16 lg:px-16">
+      An IT graduate from Adamson University who is always able to quickly grasp
+      new concepts and is eager to learn the ins and outs of the Information Technology industry.
+      <br><br>
+      Helped develop website projects that cater to business functionalities such as customer relationship management,
+      point of sale, customer transactions, and human resources. Passionate about building and designing professional websites.
+    </p>
 
     <div v-motion-pop class="justify-center items-center flex space-x-16 sm:mt-8 xl:mt-0  2xl:inline-flex min-[320px]:inline-block sm:inline-flex md:inline-flex">
       <div class="relative sm:mb-16 min-[320px]:mb-16">
@@ -30,10 +28,9 @@
         <img src="/src/assets/img/gif1.gif" alt="" class="drop-shadow-bittersweet grayscale hover:grayscale-0" width="300" height="300">
       </div>
     </div>
-
   </div>
-  <div  v-motion-pop-visible class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
-    <div class="border flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
+  <div v-motion-slide-visible-left class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
+    <div class="flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
     <label for="me" class="text-6xl ml-8 text-bittersweet exact-active-link font-bold">Tech Stack</label>
   </div>
   <div  class="flex justify-center">
@@ -64,7 +61,7 @@
           <font-awesome-icon class="text-chart drop-shadow-bittersweet font-bold me-2 text-5xl" :icon="['fab', 'microsoft']" />
           <label  class="text-bittersweet  min-[320px]:text-sm lg:text-xl font-bold">Microsoft Technology Associate: Database Administration Fundamentals</label>
         </div>
-        <button  class="bg-none rounded-full px-2 mt-3  text-chart font-semibold hover:drop-shadow-bittersweet border-2 border-chart" onclick="location.href='https://www.credly.com/badges/790c00c1-979e-4568-8dd1-74407339605c/public_url'"><font-awesome-icon :icon="['fas', 'certificate']" /> Show Credential</button>
+        <button  class="bg-none rounded-full py-2 px-4 mt-3  text-chart font-semibold hover:drop-shadow-bittersweet border-2 border-chart" onclick="location.href='https://www.credly.com/badges/790c00c1-979e-4568-8dd1-74407339605c/public_url'"><font-awesome-icon :icon="['fas', 'certificate']" /> Show Credential</button>
       </div>
 
     </div>

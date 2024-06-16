@@ -69,6 +69,58 @@
       </swiper-slide>
     </swiper>
 
+
+
+    <hr class="border-t-4 border-dashed border-chart drop-shadow-bittersweet mb-16">
+    <p  v-motion-pop-visible class="text-bittersweet text-4xl exact-active-link text-center font-bold"> CLOBY'S PHOTOGRAPHY STUDIO</p>
+    <div v-motion-slide-left class="hover:animate-bounce flex justify-center mt-4 ">
+      <a href="https://www.figma.com/design/vxKY16wFxEkPBE0zyY76Qd/Cloby's-Photography-Studio?node-id=0-1&t=mIZ1OrPJdgW3j4cx-1" class="text-chart flex  me-2 items-center font-bold hover:text-chart drop-shadow-bittersweet">
+        <font-awesome-icon class="me-2 text-xl" :icon="['fab', 'figma']" />
+        <span class="min-[320px]:text-[12px] md:text-md ">
+            UI Design on Figma
+          </span>
+      </a>
+    </div>
+    <div class="align-middle w-full flex justify-center mt-4">
+      <p  v-motion-slide-visible-left class="text-center text-sm sm:break-words text-chart px-4 md:w-[600px] mb-16 ">
+        Designed a business website to accomodate their customers' appointment that matches their product and service.
+        <br><br>
+        A Self-portrait photography studio based in Imus, Cavite that opened its service recently this year.
+        <br>
+        <a href="https://ui.adsabs.harvard.edu/abs/2021E%26ES..771a2036M/abstract" class="italic text-2xs text-bittersweet">Source: https://ui.adsabs.harvard.edu/abs/2021E%26ES..771a2036M/abstract</a>
+      </p>
+    </div>
+    <p class="text-bittersweet text-1xl text-center mb-10 font-bold"> Swipe to see more!!!</p>
+    <swiper class="mySwiper mb-16">
+      <swiper-slide class="">
+          <div class="align-middle w-full flex justify-center">
+            <img src="/src/assets/img/clobys1.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+          </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/clobys2.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/clobys3.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/clobys4.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/clobys5.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
+    </swiper>
+
+
+
     <hr class="border-t-4 border-dashed border-chart drop-shadow-bittersweet mb-16">
     <p  v-motion-pop-visible class="text-bittersweet text-4xl exact-active-link text-center font-bold"> DUMAGAT</p>
     <div class="align-middle w-full flex justify-center mt-4">
