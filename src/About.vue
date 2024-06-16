@@ -125,7 +125,7 @@ In its 4th year, we've invited the most renowned UX, design, and technology prac
 
   <div v-motion-slide-visible-left class="flex content-stretch min-[320px]:m-8 md:m-16 text-center">
     <div class="border flex-grow my-auto border-chart border-2 border-dashed drop-shadow-bittersweet"></div>
-    <label for="me" class="text-6xl ml-8 min-[320px]:break-all text-bittersweet exact-active-link font-bold">Employment</label>
+    <label for="me" class="text-6xl ml-8 min-[320px]:break-all text-bittersweet exact-active-link font-bold">Career</label>
   </div>
   <div class="flex justify-center sm:px-16 min-[320px]:px-16 lg:px-48">
     <ol class="relative border-l-2 ps-[0.05em] border-dashed border-bittersweet dark:border-gray-700 mb-16 ">
@@ -137,7 +137,7 @@ In its 4th year, we've invited the most renowned UX, design, and technology prac
             <h3 class="text-2xl font-semibold text-bittersweet lg:me-3 sm:me-0">LiveCrossing PH (Digital Studio Co., Ltd.)</h3>
             <p class="text-chart text-sm my-2">A subsidiary company of Digital Studio Co., Ltd. based in Japan and part of the development of Live Commerce and marketing hub across Asia in Makati City, Philippines. Locally developing solutions for inventory linkage such as eBay, Amazon and Lazada.</p>
           </div>
-          <p class="mb-4 text-xl font-bold text-bittersweet">as UI / UX Web Designer</p>
+          <p class="mb-4 text-xl font-bold text-bittersweet">as UI / UX Designer</p>
           <button class="bg-none lg:my-0 min-[320px]:my-3 sm:my-3 rounded-full px-3 py-1 text-chart font-semibold hover:drop-shadow-bittersweet border-2 border-chart" onclick="location.href='https://www.ds-style.com/'"><font-awesome-icon :icon="['fas', 'globe']" /> Visit</button>
         </div>
         

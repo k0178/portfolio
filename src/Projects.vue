@@ -120,7 +120,7 @@
     </swiper>
 
 
-
+<!-- 
     <hr class="border-t-4 border-dashed border-chart drop-shadow-bittersweet mb-16">
     <p  v-motion-pop-visible class="text-bittersweet text-4xl exact-active-link text-center font-bold"> DUMAGAT</p>
     <div class="align-middle w-full flex justify-center mt-4">
@@ -133,7 +133,7 @@
         <br>
         <a href="https://ui.adsabs.harvard.edu/abs/2021E%26ES..771a2036M/abstract" class="italic text-2xs text-bittersweet">Source: https://ui.adsabs.harvard.edu/abs/2021E%26ES..771a2036M/abstract</a>
       </p>
-    </div>
+    </div> -->
 
     <hr class="border-t-4 border-dashed border-chart drop-shadow-bittersweet mb-16">
     <p v-motion-pop-visible class="text-bittersweet text-4xl exact-active-link text-center font-bold"> GREEN AP</p>
