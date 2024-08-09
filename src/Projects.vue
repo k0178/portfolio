@@ -117,6 +117,11 @@
           <img src="/src/assets/img/clobys5.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
         </div>
       </swiper-slide>
+      <swiper-slide>
+        <div class="align-middle w-full flex justify-center">
+          <img src="/src/assets/img/clobys6.png" alt="" class="drop-shadow-bittersweet md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        </div>
+      </swiper-slide>
     </swiper>
 
 

@@ -17,6 +17,9 @@ module.exports = {
         'chart': '#E0FF4F',
         'bittersweet': '#FF6663'
       },
+      transitionProperty: {
+        'width' : 'width',
+      },
       dropShadow: {
         '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
         '4xl': [
@@ -24,13 +27,20 @@ module.exports = {
           '0 45px 65px rgba(0, 0, 0, 0.15)'
         ],
         'bittersweet': '2px 3px 0 rgb(255, 102, 99)',
+        'chart': '2px 3px 0 rgb(224, 255, 79)',
+        'chart-2': '7px 8px 0 rgb(224, 255, 79)',
+        'turq': '7px 8px 0 rgb(41, 231, 205)',
+        'pink-lav': '7px 8px 0 rgb(224, 255, 79)',
+        'pink-lav-2': '2px 3px 0 rgb(224, 172, 213)',
+        'un-blue': '7px 8px 0 rgb(57, 147, 221)'
       },
     },
     fontFamily:{
       'jetbrains': ['JetBrains Mono', 'monospace'],
       'epilogue': ['Epilogue' , 'sans-serif'],
       'sora': ['Sora', 'sans-serif'],
-      'montserrat': ['Montserrat' , 'sans-serif']
+      'montserrat': ['Montserrat' , 'sans-serif'],
+      'playwrite' : ['Playwrite RO', 'cursive'],
     }
   },
   plugins: [

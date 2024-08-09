@@ -7,7 +7,7 @@
 
   <div class="sm:inline-block xl:grid grid-cols-2 items-center gap-4 grid-flow-col align-middle py-16 m-16 ">
 
-    <p v-motion-pop class="text-left sm:break-words p-4 text-bittersweet font-bold z-10 mb-16 lg:px-16">
+    <p v-motion-pop class="text-left sm:break-words p-4 text-chart font-bold z-10 mb-16 lg:px-16">
       An IT graduate from Adamson University who is always able to quickly grasp
       new concepts and is eager to learn the ins and outs of the Information Technology industry.
       <br><br>
