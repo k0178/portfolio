@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;900&family=Montserrat:wght@400;900&family=Sora:wght@400;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,8 +12,14 @@
 }
 
 .exact-active-link {
-    text-shadow: 1px 2px 0 rgb(224, 255, 79);
-    color: #FF6663;
+    text-shadow: 3px 2px 0 #FF6663;
+    color: #e0ff4f;
+    /* border: solid 2px #FF6663; */
+    box-shadow: rgba(255, 102, 99, 0.8) -5px 5px,
+                rgba(255, 102, 99, 0.3) -10px 10px, 
+                rgba(255, 102, 99, 0.2) -15px 15px, 
+                rgba(255, 102, 99, 0.1) -20px 20px, 
+                rgba(255, 102, 99, 0.05) -25px 25px;
 }
 
 
@@ -83,7 +88,7 @@
 @keyframes changeColor {
     0%{
         color: #E0FF4F;
-        transform: translateY(0%);
+        /* transform: translateY(0%); */
     }
 
     33%{
@@ -122,7 +127,7 @@
 
     66%{
         color: #E0ACD5;
-        transform: translateY(5%);
+        /* transform: translateY(5%); */
 
         text-shadow:
 
@@ -191,8 +196,8 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(20, 20, 20, 0.15) .1em, transparent .1em),
-                    linear-gradient(90deg, rgba(20, 20, 20, 0.15) .1em, transparent .1em);
+    background-image: linear-gradient(rgba(82, 82, 82, 0.15) .1em, transparent .1em),
+                        linear-gradient(90deg, rgba(82, 82, 82, 0.15) .1em, transparent .1em);
     background-size: 3em 3em;
 
 }
