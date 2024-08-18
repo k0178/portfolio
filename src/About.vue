@@ -8,6 +8,7 @@
     <h1 v-motion-slide-left class="text-[170px] text-right absolute top-10 left-3 z-[-1]  sm:break-words break-all  drop-shadow-chart-2 italic  uppercase font-bold text-pink-lav ">
       About Me
     </h1>
+
     <div class="bg-un-blue w-1/2 absolute left- z-[-2]  mt-52 px-10 py-20 shadow-bittersweet-2">
       <div class="  ">
         <p v-motion-pop class=" sm:break-words  text-isabelline italic ">

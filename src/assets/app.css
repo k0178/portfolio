@@ -195,6 +195,11 @@
     }
 }
 
+
+
+.resume-btn{
+background: linear-gradient(45deg, transparent 5%, #00272B 5%);
+}
 body{
     background-image: linear-gradient(rgba(82, 82, 82, 0.15) .1em, transparent .1em),
                         linear-gradient(90deg, rgba(82, 82, 82, 0.15) .1em, transparent .1em);

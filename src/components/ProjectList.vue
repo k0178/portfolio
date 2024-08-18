@@ -173,7 +173,7 @@
 </swiper>
 
 <p class="text-un-blue italic">And to more projects in the future.</p>
-<p class="text-un-blue mt-3 font-bold">Back to Top.</p>
+<!-- <p class="text-un-blue mt-3 font-bold">Back to Top.</p> -->
 </template>
 
 <script setup>
