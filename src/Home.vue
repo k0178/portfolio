@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="bg-chart min-[320px]:w-5/6 min-[320px]:h-4/5 lg:w-1/3 lg:h-4/5 absolute bottom-0 left-0 shadow-bittersweet-2"> 
+    <div class="bg-chart min-[320px]:w-5/6 min-[320px]:h-4/5 lg:w-1/3 lg:h-4/5 absolute z-[-2] bottom-0 left-0 shadow-bittersweet-2"> 
       <img src="./assets/img/kenneth-nobg.png" class=" grayscale hover:grayscale-0 min-[320px]:h-[600px] lg:h-auto xl:h-auto min-[1920px]:h-auto  absolute bottom-0 left-0" alt="">
       <div class=" absolute top-3 left-3  text-gunmetal ">
         <label for="" class="xl:text-xl min-[1920px]:text-3xl min-[320px]:text-lg tracking-tighter font-bold"> KENNETH LEANDA</label>
