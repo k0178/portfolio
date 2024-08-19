@@ -9,7 +9,7 @@
       </div>
     </div>
     <Navbar></Navbar>
-    <h1 class="portfolio min-[320px]:text-[90px] lg:text-[270px] xl:-bottom-28 italic absolute min-[1920px]:-bottom-36 min-[320px]:bottom-0 min-[1920px]:text-[350px] uppercase font-bold text-gunmetal m-0 p-0">
+    <h1 class="portfolio min-[320px]:text-[90px] lg:text-[350px] xl:-bottom-36 italic absolute min-[1920px]:-bottom-36 min-[320px]:bottom-0  uppercase font-bold text-gunmetal m-0 p-0">
         Portfolio
     </h1>
 
