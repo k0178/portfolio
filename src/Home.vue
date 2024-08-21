@@ -7,6 +7,13 @@
         <br>
         <label for="" class="text-xs tracking-wide italic"> UI / UX DESIGNER</label>
       </div>
+
+      <div class="p-5 w-48 text-left text-gunmetal ">
+        <label for="" class="w-36 text-sm italic ">
+          Building seamless interfaces that will make the most out of your clicks. 
+        </label>
+      </div>
+
     </div>
     <Navbar></Navbar>
     <h1 class="portfolio min-[320px]:text-[90px] lg:text-[350px] xl:-bottom-36 italic absolute min-[1920px]:-bottom-36 min-[320px]:bottom-0  uppercase font-bold text-gunmetal m-0 p-0">
