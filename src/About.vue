@@ -1,5 +1,6 @@
 <script setup>
   import Navbar from './components/Navbar.vue'
+  import BackToTop from './components/BackToTop.vue';
 </script>
 
 <template>
@@ -9,7 +10,7 @@
       About Me
     </h1>
 
-    <div class="bg-un-blue lg:w-1/2 min-[1280px]:w-3/5 min-[320px]:w-3/4 absolute left-0 z-[-2]  mt-52 px-5 py-10 shadow-bittersweet-2 ">
+    <div class="bg-un-blue lg:w-1/2 min-[1280px]:w-3/5 min-[320px]:w-3/4 absolute left-0 z-[-2]  mt-52 p-8 shadow-bittersweet-2 ">
       <div class="  ">
         <p v-motion-pop class=" sm:break-words  text-isabelline italic ">
           A UI / UX Designer who is always able to quickly grasp
@@ -124,6 +125,7 @@
       </div> 
     </div>
   </div>
+  <BackToTop/>
 </template>
 
 

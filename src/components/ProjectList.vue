@@ -11,7 +11,7 @@
         </a>
     </div>
     <div class="mt-4 italic">
-        <p v-motion-slide-left class=" sm:break-words text-isabelline md:w-[600px] mb-10 ">
+        <p v-motion-slide-left class=" sm:break-words text-isabelline  mb-10 ">
         An Apparel-centered Auction System for the benefit of the True North Garments in Navotas City, Philippines. The capstone project includes different modules
         that fit the company's needs.
         <br><br>
@@ -78,7 +78,7 @@
     </a>
 </div>
 <div class="mt-4 italic">
-    <p  v-motion-slide-visible-left class=" sm:break-words text-isabelline md:w-[600px] mb-10 ">
+    <p  v-motion-slide-visible-left class=" sm:break-words text-isabelline  mb-10 ">
     Designed a business website to accomodate their customers' appointment that matches their product and service.
     <br><br>
         A Self-portrait photography studio based in Imus, Cavite that opened its service recently this year.
@@ -134,7 +134,7 @@
     </a>
 </div>
 <div class=" mt-4">
-    <p v-motion-slide-visible-left class=" italic sm:break-words text-isabelline md:w-[600px] mb-10 ">
+    <p v-motion-slide-visible-left class=" italic sm:break-words text-isabelline  mb-10 ">
     Green Architecture Advocacy Philippines (Green AP) is a civic non-profit organization that is concerned about the environment
     and takes action by promoting sustainable development of the built environment.
     </p>
@@ -178,6 +178,7 @@
 </swiper>
 
 <p class="text-un-blue italic">And to more projects in the future.</p>
+<BackToTop/>
 <!-- <p class="text-un-blue mt-3 font-bold">Back to Top.</p> -->
 </template>
 
@@ -186,6 +187,7 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper';
+import BackToTop from './BackToTop.vue';
 </script>
 
 <style  scoped>

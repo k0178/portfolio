@@ -12,7 +12,7 @@
 }
 
 .exact-active-link {
-    text-shadow: 3px 2px 0 #FF6663;
+    text-shadow: 3px 3px 0 #FF6663;
     color: #e0ff4f;
     /* border: solid 2px #FF6663; */
     box-shadow: rgba(255, 102, 99, 0.8) -5px 5px,
@@ -206,4 +206,5 @@ body{
     background-size: 3em 3em;
 
 }
+
 

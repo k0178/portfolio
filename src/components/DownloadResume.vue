@@ -1,8 +1,8 @@
 <template>
-    <button @click="downloadResume()" class="resume-btn relative  hover:drop-shadow-bittersweet-2 text-chart ">
-        <div class="absolute xl:top-3 xl:right-3 min-[320px]:top-3 min-[320px]:right-3 flex items-center gap-3">
-            <label for="" class="text-3xl tracking-tighter lg:text-3xl min-[320px]:text-sm"> RESUME</label>
-                <font-awesome-icon class="lg:text-3xl min-[320px]:text-sm" :icon="['fas', 'download']" />
+    <button @click="downloadResume()" class="resume-btn relative flex items-center justify-end hover:drop-shadow-bittersweet-2 text-chart transition duration-300">
+        <div class="flex items-center gap-3 me-3">
+            <label for="" class="lg:text-3xl min-[320px]:text-sm tracking-tighter lg:visible min-[320px]:invisible"> DOWNLOAD MY RESUME</label>
+            <font-awesome-icon class="lg:text-2xl min-[320px]:text-2xl" :icon="['fas', 'file-arrow-down']" />
         </div>
     </button>
 </template>
