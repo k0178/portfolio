@@ -56,6 +56,14 @@
             </span>
             </a>
           </div>
+          <div v-motion-pop  class="hover:animate-bounce">
+            <a href="" class="text-gunmetal flex  me-2 items-center font-bold ">
+              <font-awesome-icon class="me-2 text-5xl" :icon="['fab', 'square-behance']" />
+              <span class="min-[320px]:text-[12px] md:text-lg ">
+                leandakenneth
+            </span>
+            </a>
+          </div>
         </div>
       </div>
     </div>

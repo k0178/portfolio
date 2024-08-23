@@ -68,15 +68,27 @@
 
 
 <p  v-motion-pop-visible class="text-un-blue text-4xl  font-bold"> CLOBY'S PHOTOGRAPHY STUDIO</p>
-<div v-motion-slide-left class="hover:animate-bounce mt-4 ">
-    <a href="https://www.figma.com/design/vxKY16wFxEkPBE0zyY76Qd/Cloby's-Photography-Studio?node-id=0-1&t=mIZ1OrPJdgW3j4cx-1" class="text-un-blue  flex me-2 font-bol">
-        <font-awesome-icon class="me-2 text-xl" :icon="['fab', 'figma']" />
-        <span class="min-[320px]:text-[12px] md:text-md ">
-            UI Design on Figma
-        </span>
-        <font-awesome-icon class="ms-2" :icon="['fas', 'arrow-right']" />
-    </a>
+<div class="flex items-center gap-5 mt-5">
+    <div v-motion-slide-left class="hover:animate-bounce">
+        <a href="https://www.figma.com/design/vxKY16wFxEkPBE0zyY76Qd/Cloby's-Photography-Studio?node-id=0-1&t=mIZ1OrPJdgW3j4cx-1" class="text-un-blue  flex me-2 font-bol">
+            <font-awesome-icon class="me-2 text-xl" :icon="['fab', 'figma']" />
+            <span class="min-[320px]:text-[12px] md:text-md ">
+                UI Design on Figma
+            </span>
+            <font-awesome-icon class="ms-2" :icon="['fas', 'arrow-right']" />
+        </a>
+    </div>
+    <div v-motion-slide-left class="hover:animate-bounce">
+        <a href="https://www.behance.net/gallery/206034771/Clobys-Photography-Studio" class="text-un-blue  flex me-2 font-bol">
+            <font-awesome-icon class="me-2 text-xl" :icon="['fab', 'square-behance']" />
+            <span class="min-[320px]:text-[12px] md:text-md ">
+                Behance Project
+            </span>
+            <font-awesome-icon class="ms-2" :icon="['fas', 'arrow-right']" />
+        </a>
+    </div>
 </div>
+
 <div class="mt-4 italic">
     <p  v-motion-slide-visible-left class=" sm:break-words text-isabelline  mb-10 ">
     Designed a business website to accomodate their customers' appointment that matches their product and service.
