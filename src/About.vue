@@ -7,7 +7,7 @@
   <Navbar></Navbar>
 
 
-  <div class="flex min-[320px]:invisible lg:visible  fixed bottom-0 right-0">
+  <div v-motion-slide-bottom class="flex min-[320px]:invisible lg:visible  fixed bottom-0 right-0">
     <div class="relative">
       <div class="absolute top-0 left-0 text-right text-gunmetal">
         <label for="" class="text-lg font-bold"> KENNETH LEANDA</label>
