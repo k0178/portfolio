@@ -1,5 +1,5 @@
 <template>
-<div class="">
+<div class="mt-10">
     <p v-motion-pop class="text-un-blue text-4xl font-bold"> TRUE NORTH AUCTIONS</p>
     <div v-motion-slide-left class="hover:animate-bounce mt-4 ">
         <a href="https://github.com/k0178/TrueNorth" class="text-un-blue flex  me-2 items-center font-bold ">
@@ -24,42 +24,42 @@
 <swiper class="mySwiper mb-10">
     <swiper-slide class="">
         <div class="">
-        <img src="/src/assets/img/truenorth1.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/truenorth1.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
         </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/truenorth2.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/truenorth2.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/truenorth3.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/truenorth3.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/truenorth4.jpeg" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/truenorth4.jpeg" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/truenorth5.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/truenorth5.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/truenorth6.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/truenorth6.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/truenorth7.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/truenorth7.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/truenorth8.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/truenorth8.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     
@@ -99,37 +99,37 @@
 <swiper class="mySwiper mb-16">
     <swiper-slide class="">
         <div class="">
-        <img src="/src/assets/img/clobys1.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/clobys1.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
         </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/clobys2.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/clobys2.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/clobys3.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/clobys3.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/clobys4.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/clobys4.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/clobys5.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/clobys5.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
         <div class="">
-            <img src="/src/assets/img/clobys6.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+            <img src="/src/assets/img/clobys6.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="">
-            <img src="/src/assets/img/clobys7.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+            <img src="/src/assets/img/clobys7.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
         </div>
     </swiper-slide>
 </swiper>
@@ -154,42 +154,42 @@
 <swiper class="mySwiper mb-10">
     <swiper-slide class="">
     <div class="">
-        <img src="/src/assets/img/greenap-1.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/greenap-1.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/greenap-2.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/greenap-2.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/greenap-3.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/greenap-3.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/greenap-4.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/greenap-4.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/greenap-5.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/greenap-5.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/greenap-6.png" alt="" class=" md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/greenap-6.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
     <swiper-slide>
     <div class="">
-        <img src="/src/assets/img/greenap-7.png" alt="" class=" md:w-1/4 md:h-1/4 min-[320px]:w-auto min-[320px]:h-auto">
+        <img src="/src/assets/img/greenap-7.png" alt="" class="lg:w-auto md:w-1/4 md:h-1/4 min-[320px]:w-auto min-[320px]:h-auto">
     </div>
     </swiper-slide>
 </swiper>
 
-<p class="text-un-blue italic">And to more projects in the future.</p>
+<!-- <p class="text-un-blue italic">And to more projects in the future.</p> -->
 <BackToTop/>
 <!-- <p class="text-un-blue mt-3 font-bold">Back to Top.</p> -->
 </template>

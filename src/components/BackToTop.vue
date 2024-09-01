@@ -1,5 +1,6 @@
 <template>
     <button
+        v-motion-pop
         v-if="isVisible"
         @click="scrollToTop"
         class="fixed text-xs bottom-4 right-4 resume-btn hover:drop-shadow-bittersweet-2 text-chart   p-5 transition duration-300"

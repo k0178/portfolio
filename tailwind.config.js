@@ -34,7 +34,7 @@ module.exports = {
         'pink-lav': '7px 8px 0 rgb(224, 172, 213)',
         'pink-lav-2': '2px 3px 0 rgb(224, 172, 213)',
         'un-blue': '7px 8px 0 rgb(57, 147, 221)',
-        'img': '12px 0px rgb(224, 172, 213)',
+        'img': '8px 8px rgb(57, 147, 221)',
       },
       boxShadow: {
         'bittersweet-2' : 'rgba(255, 102, 99, 0.8) 5px 5px, rgba(255, 102, 99, 0.3) 10px 10px, rgba(255, 102, 99, 0.2) 15px 15px, rgba(255, 102, 99, 0.1) 20px 20px, rgba(255, 102, 99, 0.05) 25px 25px', 

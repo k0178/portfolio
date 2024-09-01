@@ -5,13 +5,28 @@
 
 <template>
   <Navbar></Navbar>
+
+
+  <div class="flex min-[320px]:invisible lg:visible  fixed bottom-0 right-0">
+    <div class="relative">
+      <div class="absolute top-0 left-0 text-right text-gunmetal">
+        <label for="" class="text-lg font-bold"> KENNETH LEANDA</label>
+        <br>
+        <label for="" class="text-xs tracking-wide italic"> UI / UX DESIGNER</label>
+      </div>
+      <img src="./assets/img/kenneth-nobg.png" class=" grayscale  h-[600px]" alt="">
+    </div>
+  </div>
+
   <div class="relative">
     <h1 v-motion-slide-left class="min-[1920px]:text-[170px] xl:text-[160px] min-[320px]:text-[80px] text-right absolute xl:top-10 lg:top-10 min-[320px]:top-32 lg:left-3 z-[-1]  drop-shadow-chart-2 italic  uppercase font-bold text-pink-lav ">
       About Me
     </h1>
-
+    
     <div class="bg-un-blue lg:w-1/2 min-[1280px]:w-3/5 min-[320px]:w-3/4 absolute left-0 z-[-2]  mt-52 p-8 shadow-bittersweet-2 ">
-      <div class="  ">
+
+      
+      <div class="mt-10">
         <p v-motion-pop class=" sm:break-words  text-isabelline italic ">
           A UI / UX Designer who is always able to quickly grasp
           new concepts and is eager to learn the ins and outs of the Information Technology industry.
@@ -22,19 +37,19 @@
         <div  v-motion-pop class=" relative  mt-10 ">
           <label for="me" class="text-6xl text-pink-lav font-bold">Tech Stack</label>
         </div>
-        <div  class="flex justify-center mt-10">
-          <div v-motion-slide-left class="grid md:grid-cols-4 min-[320px]:grid-cols-3 sm:grid-cols-2 grid-flow-row   gap-16 justify-items-center items-center ">
+        <div  class="mt-10">
+          <div v-motion-slide-left class="grid md:grid-cols-4 min-[320px]:grid-cols-3 sm:grid-cols-2 grid-flow-row   gap-12 justify-items-center items-center ">
+            <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'figma']" />
             <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'laravel']" />
             <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'js']" />
             <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'bootstrap']" />
             <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'php']" />
-            <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'figma']" />
+            <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'vuejs']" />
             <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" viewBox="0 0 24 24">
               <path fill="white" d="M12 6c-2.67 0-4.33 1.33-5 4c1-1.33 2.17-1.83 3.5-1.5c.76.19 1.31.74 1.91 1.35c.98 1 2.09 2.15 4.59 2.15c2.67 0 4.33-1.33 5-4c-1 1.33-2.17 1.83-3.5 1.5c-.76-.19-1.3-.74-1.91-1.35C15.61 7.15 14.5 6 12 6m-5 6c-2.67 0-4.33 1.33-5 4c1-1.33 2.17-1.83 3.5-1.5c.76.19 1.3.74 1.91 1.35C8.39 16.85 9.5 18 12 18c2.67 0 4.33-1.33 5-4c-1 1.33-2.17 1.83-3.5 1.5c-.76-.19-1.3-.74-1.91-1.35C10.61 13.15 9.5 12 7 12"/>
             </svg>
             <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'html5']" />
             <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'css3-alt']" />
-            <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'vuejs']" />
             <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'react']" />
             <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'github']" />
             <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" viewBox="0 0 24 24">
@@ -47,7 +62,7 @@
       <div v-motion-slide-visible-left class="mt-20">
         <label for="me" class="text-6xl mr-8 min-[320px]:break-all text-pink-lav  font-bold">Certification/s</label>
       </div>
-      <div v-motion-slide-visible-left class="flex justify-center">
+      <div v-motion-slide-visible-left class="">
         <div class="mt-5">
           <div class="">
             <div class="flex space-x-4 items-center col-start-2 col-span-2">
@@ -76,13 +91,13 @@
         </ol>
       </div>
 
-      <div v-motion-slide-visible-left class="mt-10">
+      <div v-motion-slide-visible-left class="mt-20">
         <label for="me" class="text-6xl min-[320px]:break-all text-pink-lav font-bold">Events</label>
       </div>
-      <div class="flex text-right ">
-        <ol class="relative pe-[1.05em] border-r-2 border-dashed border-isabelline mb-16 ">
+      <div class="flex text-left ">
+        <ol class="relative pe-[1.05em] border-l-2 border-dashed border-isabelline mb-16 ">
           <li v-motion-slide-visible-left class="mb-10 ml-4">
-            <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -right-6 dark:border-gray-900 dark:bg-gray-700"></div>
+            <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
             <time class="mb-1 text-sm font-normal leading-none text-isabelline">September 2023</time>
             <h3 class="text-2xl font-semibold text-pink-lav mb-3">UX+ Conference 2023</h3>
             <p class="mb-4 text-base font-normal text-isabelline italic">UX+ Conference 2023 is a 1-day, in-person conference for aspiring and seasoned User Experience professionals. It's a paid in-person event, happening on Sep. 17, 2023, held at SMX Convention Center Manila, Philippines.
@@ -91,7 +106,7 @@
             <p class=" italic text-isabelline text-xs">https://2023.uxpl.us/#faqs</p>
           </li>
           <li v-motion-slide-visible-left class="mb-10 ml-4">
-            <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -right-6 "></div>
+            <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -left-6 "></div>
             <time class="mb-1 text-sm font-normal leading-none text-isabelline">June 2022</time>
             <h3 class="text-2xl font-semibold text-pink-lav mb-3">3rd Philippine Skilling Summit</h3>
             <p class="mb-4 text-base font-normal text-isabelline italic">The Philippine Skilling Summit is a free 3-day webinar designed to give attendees a comprehensive look at the most sought-after and highly profitable skills. </p>

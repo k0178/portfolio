@@ -1,6 +1,7 @@
 <template>
   <div class="">
-    <div class="bg-chart min-[320px]:w-full min-[320px]:h-4/5 lg:w-1/3 lg:h-4/5 absolute z-[-2] bottom-0 left-0 shadow-bittersweet-2"> 
+    <Navbar></Navbar>
+    <!-- <div class="bg-chart min-[320px]:w-full min-[320px]:h-1/3 lg:w-1/3 lg:h-3/5 absolute z-[-2] bottom-0 left-0 shadow-bittersweet-2"> 
       <img src="./assets/img/kenneth-nobg.png" class="drop-shadow-img grayscale hover:grayscale-0 min-[320px]:h-[600px] lg:h-auto xl:h-auto min-[1920px]:h-auto  absolute bottom-0 left-0" alt="">
       <div class=" absolute top-5 right-5 text-right text-gunmetal ">
         <label for="" class="xl:text-xl min-[1920px]:text-3xl min-[320px]:text-lg tracking-widest font-bold"> KENNETH LEANDA</label>
@@ -14,11 +15,15 @@
         </label>
       </div>
 
+    </div> -->
+    <div class="flex w-full h-screen items-center justify-center ">
+      <div class="relative">
+        <h1 class="portfolio  font-sera z-20 text-center text-[300px] break-all min-[320px]:h-screen lg:h-auto uppercase font-black text-gunmetal m-0 p-0">
+          Portfolio
+        </h1>
+        <p class="text-sm  fixed font-medium bottom-10 right-10 text-un-blue tracking-tight">Design and Development by Kenneth Leanda</p>
+      </div>
     </div>
-    <Navbar></Navbar>
-    <h1 class="portfolio min-[320px]:text-[90px] lg:text-[350px] xl:-bottom-36 italic absolute min-[1920px]:-bottom-36 min-[320px]:bottom-0  uppercase font-bold text-gunmetal m-0 p-0">
-        Portfolio
-    </h1>
   </div>
 </template>
 
