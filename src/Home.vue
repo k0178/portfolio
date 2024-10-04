@@ -21,7 +21,7 @@
         <h1 class="portfolio  font-sera z-20 text-center text-[300px] break-all min-[320px]:h-screen lg:h-auto uppercase font-black text-gunmetal m-0 p-0">
           Portfolio
         </h1>
-        <p class="text-sm  fixed font-medium bottom-10 right-10 text-un-blue tracking-tight">Design and Development by Kenneth Leanda</p>
+        <p class="text-sm fixed font-medium bottom-10 right-10 text-un-blue tracking-tight">Design and Development by Kenneth Leanda</p>
       </div>
     </div>
   </div>

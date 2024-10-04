@@ -19,7 +19,7 @@
   </div>
 
   <div class="relative">
-    <h1 v-motion-slide-left class="min-[1920px]:text-[170px] xl:text-[160px] min-[320px]:text-[80px] text-right absolute xl:top-10 lg:top-10 min-[320px]:top-32 lg:left-3 z-[-1]  drop-shadow-chart-2 italic  uppercase font-bold text-pink-lav ">
+    <h1 v-motion-slide-left class="min-[1920px]:text-[170px] xl:text-[160px] min-[320px]:text-[60px] text-right absolute xl:top-10 lg:top-10 min-[320px]:top-40 lg:left-3 z-[-1]  drop-shadow-chart-2 italic  uppercase font-bold text-pink-lav ">
       About Me
     </h1>
     
