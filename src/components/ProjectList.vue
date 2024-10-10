@@ -168,6 +168,44 @@
     </swiper-slide>
 </swiper>
 
+
+<ProjectTitle>
+    wis Technology (Wistec)
+</ProjectTitle>
+<ProjectLinks
+    :icon="['fab', 'figma']"
+    link="https://www.figma.com/design/mvh1qnsRDba5l66tYIoQNl/Wistec-Website---Kenneth-Leanda?node-id=33-7080&t=7hEArnwxtDOlVB72-1"
+    title="Figma Link"
+/>
+<ProjectDesc
+    text="A landing page redesign for Wis Technology, an Australia-based IT solutions startup company."
+/>
+<SwipeToBrowse/>
+<swiper class="mySwiper mb-10">
+    <swiper-slide class="">
+    <div class="">
+        <img src="/src/assets/img/wistec.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+    </div>
+    </swiper-slide>
+    <swiper-slide>
+    <div class="">
+        <img src="/src/assets/img/wistec2.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+    </div>
+    </swiper-slide>
+    <swiper-slide>
+    <div class="">
+        <img src="/src/assets/img/wistec3.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+    </div>
+    </swiper-slide>
+    <swiper-slide>
+    <div class="">
+        <img src="/src/assets/img/wistec4.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
+    </div>
+    </swiper-slide>
+</swiper>
+
+
+
 <!-- <p class="text-un-blue italic">And to more projects in the future.</p> -->
 <BackToTop/>
 <!-- <p class="text-un-blue mt-3 font-bold">Back to Top.</p> -->
