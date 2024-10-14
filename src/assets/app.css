@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 *{
-    cursor: crosshair;
+    /* cursor: cell; */
 }
 
 .active {
@@ -12,17 +12,16 @@
 }
 
 .exact-active-link {
-    text-shadow: 3px 3px 0 #FF6663;
-    color: #e0ff4f;
+    /* color: #e0ff4f; */
     /* border: solid 5px #FF6663;
     border-radius: 8px; */
     
     transition: box-shadow all ease-in ;
-    box-shadow: rgba(255, 102, 99, 0.8) -10px 0px,
-                rgba(255, 102, 99, 0.3) -20px 0px, 
-                rgba(255, 102, 99, 0.2) -30px 0px, 
-                rgba(255, 102, 99, 0.1) -40px 0px, 
-                rgba(255, 102, 99, 0.05) -50px 0px
+    box-shadow: rgba(255, 102, 99, 0.8) -5px 5px,
+                rgba(255, 102, 99, 0.3) -10px 10px, 
+                rgba(255, 102, 99, 0.2) -15px 15px, 
+                rgba(255, 102, 99, 0.1) -20px 20px, 
+                rgba(255, 102, 99, 0.05) -25px 25px
                 ;
 }
 
@@ -32,7 +31,6 @@
 }
 
 .portfolio {
-    /*-webkit-text-stroke: 1px black;*/
     animation: changeColor 2s infinite alternate;
     text-shadow:
 

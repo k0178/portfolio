@@ -1,11 +1,11 @@
 <script setup>
   import Navbar from './components/Navbar.vue'
   import BackToTop from './components/BackToTop.vue';
+  import MainContainer from './components/MainContainer.vue';
 </script>
 
 <template>
   <Navbar></Navbar>
-
 
   <div v-motion-slide-bottom class="flex min-[320px]:invisible lg:visible  fixed bottom-0 right-0">
     <div class="relative">
@@ -23,9 +23,7 @@
       About Me
     </h1>
     
-    <div class="bg-un-blue lg:w-1/2 min-[1280px]:w-3/5 min-[320px]:w-3/4 absolute left-0 z-[-2]  mt-52 p-8 shadow-bittersweet-2 ">
-
-      
+    <MainContainer boxShadow="shadow-bittersweet-2" bgColor="bg-un-blue">
       <div class="mt-10">
         <p v-motion-pop class=" sm:break-words  text-isabelline italic ">
           A UI / UX Designer who is always able to quickly grasp
@@ -142,7 +140,7 @@
           </li>
         </ol>
       </div> 
-    </div>
+    </MainContainer>
   </div>
   <BackToTop/>
 </template>

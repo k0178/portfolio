@@ -1,5 +1,6 @@
 <template>
 <div class="mt-10">
+    <MainContainer></MainContainer>
     <ProjectTitle>
         True North Auctions
     </ProjectTitle>

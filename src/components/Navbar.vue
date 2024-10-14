@@ -4,19 +4,35 @@
             <p class="text-xs italic text-un-blue text-left  tracking-tight">Design and Development by Kenneth Leanda.</p>
         </div> -->
         
-        <div class="fixed grid grid-cols-1 justify-items-end grid-rows-4 gap-5 min-[1920px]:w-1/5 xl:w-1/5 min-[320px]:w-16 lg:h-1/3 min-[320px]:h-72  right-0 top-1/3 z-40 text-chart">
-            <router-link v-motion-slide-right to="/" class="bg-bole rounded-s-lg p-3 w-14 flex items-center justify-end hover:border-dashed relative hover:border-2 hover:border-gunmetal hover:text-gunmetal transition duration-300">
-                <font-awesome-icon class="lg:text-2xl min-[320px]:text-2xl" :icon="['fas', 'house']" />
-            </router-link>
-            <router-link v-motion-slide-right to="/projects" class="bg-pink-lav rounded-s-lg p-3 w-14 flex items-center justify-end hover:border-dashed relative hover:border-2 hover:border-gunmetal hover:text-gunmetal transition duration-300">
-                <font-awesome-icon class="lg:text-2xl min-[320px]:text-2xl" :icon="['fas', 'palette']" />
-            </router-link>
-            <router-link v-motion-slide-right to="/about" class="bg-un-blue rounded-s-lg p-3 w-14 flex items-center justify-end hover:border-dashed relative hover:border-2 hover:border-gunmetal hover:text-gunmetal transition duration-300">
-                <font-awesome-icon class="lg:text-2xl min-[320px]:text-2xl" :icon="['far', 'id-card']" />
-            </router-link>
-            <router-link v-motion-slide-right to="/contact" class="bg-turq rounded-s-lg p-3 w-14 flex items-center justify-end hover:border-dashed relative hover:border-2 hover:border-gunmetal hover:text-gunmetal transition duration-300">
-                <font-awesome-icon class="lg:text-2xl min-[320px]:text-2xl" :icon="['fas', 'square-phone']" />
-            </router-link>
+        <div class="fixed grid grid-cols-1 justify-items-end grid-rows-4 gap-5  right-0 top-1/3 z-40">
+            <NavbarIcon
+                to="/"
+                :icon="['fas', 'house']"
+                bgColor="bg-isabelline"
+                title="Home"
+            />
+
+            <NavbarIcon
+                to="/projects"
+                :icon="['fas', 'palette']"
+                bgColor="bg-pink-lav"
+                title="Projects"
+            />
+
+            <NavbarIcon
+                to="/about"
+                :icon="['far', 'id-card']"
+                bgColor="bg-un-blue"
+                title="About"
+            />
+
+            <NavbarIcon
+                to="/contact"
+                :icon="['fas', 'square-phone']"
+                bgColor="bg-turq"
+                title="Contact"
+            />
+
         </div>
         <DownloadResume :pdfUrl="pdfUrl" :pdfFileName="pdfFileName" />
         
@@ -24,10 +40,12 @@
 </template>
 
 <script >
-    import DownloadResume from './DownloadResume.vue';
+import DownloadResume from './DownloadResume.vue';
+import NavbarIcon from './NavbarIcon.vue';
     export default{
         components: {
-            DownloadResume
+            DownloadResume,
+            NavbarIcon
         },
         data(){
             return{

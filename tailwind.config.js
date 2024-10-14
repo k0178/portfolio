@@ -37,7 +37,16 @@ module.exports = {
         'img': '8px 8px rgb(57, 147, 221)',
       },
       boxShadow: {
-        'bittersweet-2' : 'rgba(255, 102, 99, 0.8) 5px 5px, rgba(255, 102, 99, 0.3) 10px 10px, rgba(255, 102, 99, 0.2) 15px 15px, rgba(255, 102, 99, 0.1) 20px 20px, rgba(255, 102, 99, 0.05) 25px 25px', 
+        'bittersweet-2' :`rgba(255, 102, 99, 0.8) 10px 10px, 
+                          rgba(255, 102, 99, 0.3) 20px 20px,
+                          rgba(255, 102, 99, 0.2) 30px 30px, 
+                          rgba(255, 102, 99, 0.1) 40px 40px, 
+                          rgba(255, 102, 99, 0.05) 50px 50px`, 
+        'pink-lav-3' :`rgba(224, 172, 213, 0.8) 10px 10px, 
+                      rgba(224, 172, 213, 0.3) 20px 20px,
+                      rgba(224, 172, 213, 0.2) 30px 30px, 
+                      rgba(224, 172, 213, 0.1) 40px 40px, 
+                      rgba(224, 172, 213, 0.05) 50px 50px`, 
       }
     },
     fontFamily:{
