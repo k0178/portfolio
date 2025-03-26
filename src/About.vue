@@ -69,7 +69,15 @@
             </div>
             <button  class=" mt-3  text-isabelline font-semibold hover:drop-shadow-bittersweet" onclick="location.href='https://www.credly.com/badges/790c00c1-979e-4568-8dd1-74407339605c/public_url'"><font-awesome-icon :icon="['fas', 'certificate']" /> Show Credential</button>
           </div>
-    
+        </div>
+        <div class="mt-5">
+          <div class="">
+            <div class="flex space-x-4 items-center col-start-2 col-span-2">
+              <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'apple']" />
+              <label  class="text-isabelline  min-[320px]:text-sm lg:text-xl font-bold">Claris FileMaker Pro Specialist & Associate</label>
+            </div>
+            <button  class=" mt-3  text-isabelline font-semibold hover:drop-shadow-bittersweet" onclick="location.href='https://www.credly.com/badges/ab0f475e-a6dd-4c20-8738-c15cf997a5fe/public_url'"><font-awesome-icon :icon="['fas', 'certificate']" /> Show Credential</button>
+          </div>
         </div>
       </div>
 
