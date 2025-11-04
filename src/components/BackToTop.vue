@@ -3,9 +3,9 @@
         v-motion-slide-right
         v-if="isVisible"
         @click="scrollToTop"
-        class="fixed text-xs bottom-4 right-0 rounded-l-lg bg-gunmetal hover:drop-shadow-bittersweet-2 text-chart   p-5 transition duration-300"
+        class="fixed text-xs bottom-5 right-5 rounded-full bg-gunmetal text-chart  border-chart border-2  p-5 transition duration-300"
         >
-        <font-awesome-icon class="text-xl" :icon="['fas', 'square-caret-up']" />
+        <font-awesome-icon class="text-xl" :icon="['fas', 'circle-arrow-up']" />
     </button>
 </template>
 

@@ -62,14 +62,22 @@
       </div>
       <div v-motion-slide-visible-left class="">
         <div class="mt-5">
-          <div class="">
-            <div class="flex space-x-4 items-center col-start-2 col-span-2">
-              <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'microsoft']" />
-              <label  class="text-isabelline  min-[320px]:text-sm lg:text-xl font-bold">Microsoft Technology Associate: Database Administration Fundamentals</label>
-            </div>
-            <button  class=" mt-3  text-isabelline font-semibold hover:drop-shadow-bittersweet" onclick="location.href='https://www.credly.com/badges/790c00c1-979e-4568-8dd1-74407339605c/public_url'"><font-awesome-icon :icon="['fas', 'certificate']" /> Show Credential</button>
+          <div class="flex space-x-4 items-center col-start-2 col-span-2">
+            <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'apple']" />
+            <label  class="text-isabelline  min-[320px]:text-sm lg:text-xl font-bold">App Developer for Claris FileMaker Pro</label>
+            <label  class="text-chart  min-[320px]:text-sm lg:text-md">[November 2024]</label>
+            <button  class=" text-isabelline font-semibold hover:drop-shadow-bittersweet" onclick="location.href='https://www.credly.com/badges/ab0f475e-a6dd-4c20-8738-c15cf997a5fe/public_url'"><font-awesome-icon :icon="['fas', 'eye']" /></button>
           </div>
-    
+        </div>
+      </div>
+      <div v-motion-slide-visible-left class="">
+        <div class="mt-5">
+          <div class="flex space-x-4 items-center col-start-2 col-span-2">
+            <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'microsoft']" />
+            <label  class="text-isabelline  min-[320px]:text-sm lg:text-xl font-bold">Microsoft Technology Associate: Database Administration Fundamentals</label>
+            <label  class="text-chart  min-[320px]:text-sm lg:text-md">[May 2021]</label>
+            <button  class=" text-isabelline font-semibold hover:drop-shadow-bittersweet" onclick="location.href='https://www.credly.com/badges/790c00c1-979e-4568-8dd1-74407339605c/public_url'"><font-awesome-icon :icon="['fas', 'eye']" /></button>
+          </div>
         </div>
       </div>
 
@@ -80,7 +88,7 @@
         <ol class="relative border-l-2 ps-[0.05em] border-dashed border-isabelline mb-16 ">
           <li v-motion-slide-visible-left class="mb-10 ml-4">
             <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
-            <time class="mb-1 text-sm font-normal leading-none text-isabelline">August 2019 - July 2023</time>
+            <time class="mb-1 text-sm font-normal leading-none text-chart italic">August 2019 - July 2023</time>
             <h3 class="text-2xl font-semibold text-pink-lav">Adamson University</h3>
             <p class="mb-4 text-base font-normal text-isabelline italic">Graduated as Magna Cum Laude with his Bachelor's degree in Information Technology, he finished his undergraduate studies and managed to develop his skills in web development.
               Also developed a capstone project entitled "True North Auctions: A web-based apparel-centered Online Auction system", which is done for the benefit of True North Garments in Navotas.
@@ -96,12 +104,12 @@
         <ol class="relative pe-[1.05em] border-l-2 border-dashed border-isabelline mb-16 ">
           <li v-motion-slide-visible-left class="mb-10 ml-4">
             <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
-            <time class="mb-1 text-sm font-normal leading-none text-isabelline">May 2025</time>
+            <time class="mb-1 text-sm font-normal leading-none text-chart italic">May 2025</time>
             <h3 class="text-2xl font-semibold text-pink-lav mb-3">Gemini for Google Workspace Training</h3>
           </li>
           <li v-motion-slide-visible-left class="mb-10 ml-4">
             <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
-            <time class="mb-1 text-sm font-normal leading-none text-isabelline">September 2023</time>
+            <time class="mb-1 text-sm font-normal leading-none text-chart italic">September 2023</time>
             <h3 class="text-2xl font-semibold text-pink-lav mb-3">UX+ Conference 2023</h3>
             <p class="mb-4 text-base font-normal text-isabelline italic">UX+ Conference 2023 is a 1-day, in-person conference for aspiring and seasoned User Experience professionals. It's a paid in-person event, happening on Sep. 17, 2023, held at SMX Convention Center Manila, Philippines.
               In its 4th year, we've invited the most renowned UX, design, and technology practitioners in the world to speak and share their learnings with the global design community.
@@ -110,7 +118,7 @@
           </li>
           <li v-motion-slide-visible-left class="mb-10 ml-4">
             <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -left-6 "></div>
-            <time class="mb-1 text-sm font-normal leading-none text-isabelline">June 2022</time>
+            <time class="mb-1 text-sm font-normal leading-none text-chart italic">June 2022</time>
             <h3 class="text-2xl font-semibold text-pink-lav mb-3">3rd Philippine Skilling Summit</h3>
             <p class="mb-4 text-base font-normal text-isabelline italic">The Philippine Skilling Summit is a free 3-day webinar designed to give attendees a comprehensive look at the most sought-after and highly profitable skills. </p>
           </li>
@@ -127,8 +135,8 @@
             <time class="mb-1 text-sm font-normal leading-none text-isabelline">November 2024 - July 2025 </time>
             <div class=" ">
               <div class="">
-                <h3 class="text-2xl font-semibold text-pink-lav lg:me-3 sm:me-0">Mobile Care by Power Mac Center</h3>
-                <p class="text-isabelline italic text-sm my-2">Includes premium after-sales support and service for Apple products in the Philippines by Power Mac Center.</p>
+                <h3 class="text-2xl font-semibold text-pink-lav lg:me-3 sm:me-0">Power Mac Center</h3>
+                <p class="text-isabelline italic text-sm my-2">Power Mac Center is the premier and leading Apple Premium Reseller in the Philippines, established in 1994. They offer a wide range of Apple products, including Macs, iPhones, iPads, Apple Watches, and accessories, as well as various services like in-store classes, Uptrade programs, and installment options. Power Mac Center also operates as an Authorized Service Provider for Apple products, providing repair and maintenance services. They have a significant presence in the Philippines with numerous retail stores and service centers. </p>
               </div>
               <p class="mb-4 text-xl font-bold text-pink-lav">as UI / UX Designer</p>
             </div>
