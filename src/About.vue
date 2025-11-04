@@ -96,6 +96,11 @@
         <ol class="relative pe-[1.05em] border-l-2 border-dashed border-isabelline mb-16 ">
           <li v-motion-slide-visible-left class="mb-10 ml-4">
             <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-isabelline">May 2025</time>
+            <h3 class="text-2xl font-semibold text-pink-lav mb-3">Gemini for Google Workspace Training</h3>
+          </li>
+          <li v-motion-slide-visible-left class="mb-10 ml-4">
+            <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -left-6 dark:border-gray-900 dark:bg-gray-700"></div>
             <time class="mb-1 text-sm font-normal leading-none text-isabelline">September 2023</time>
             <h3 class="text-2xl font-semibold text-pink-lav mb-3">UX+ Conference 2023</h3>
             <p class="mb-4 text-base font-normal text-isabelline italic">UX+ Conference 2023 is a 1-day, in-person conference for aspiring and seasoned User Experience professionals. It's a paid in-person event, happening on Sep. 17, 2023, held at SMX Convention Center Manila, Philippines.
@@ -117,6 +122,18 @@
       </div>
       <div class="mt-10">
         <ol class="relative border-l-2 ps-[0.05em] border-dashed border-isabelline mb-16 ">
+          <li v-motion-slide-visible-left class="mb-10 ml-4">
+            <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -left-6"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-isabelline">November 2024 - July 2025 </time>
+            <div class=" ">
+              <div class="">
+                <h3 class="text-2xl font-semibold text-pink-lav lg:me-3 sm:me-0">Mobile Care by Power Mac Center</h3>
+                <p class="text-isabelline italic text-sm my-2">Includes premium after-sales support and service for Apple products in the Philippines by Power Mac Center.</p>
+              </div>
+              <p class="mb-4 text-xl font-bold text-pink-lav">as UI / UX Designer</p>
+            </div>
+            
+          </li>
           <li v-motion-slide-visible-left class="mb-10 ml-4">
             <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -left-6"></div>
             <time class="mb-1 text-sm font-normal leading-none text-isabelline">August 2023 - September 2024 </time>
