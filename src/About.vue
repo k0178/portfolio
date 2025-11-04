@@ -63,6 +63,19 @@
       <div v-motion-slide-visible-left class="">
         <div class="mt-5">
           <div class="flex space-x-4 items-center col-start-2 col-span-2">
+          <svg width="45" height="45" viewBox="0 0 90 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M68.9831 0.971985C80.4969 0.971985 89.8306 10.3057 89.8306 21.8194L89.8306 27.3153L80.5085 30.1808V21.7851C80.49 15.4356 75.337 10.294 68.9831 10.294H20.8475C14.4822 10.294 9.32209 15.4541 9.32209 21.8194V44.0486C9.32209 47.9107 9.32209 49.8417 8.26073 51.2783C7.19938 52.7149 5.3536 53.2822 1.66204 54.417L1.62175e-05 54.9279L5.15498e-05 21.8194C5.15498e-05 10.3057 9.33378 0.971985 20.8475 0.971985H68.9831Z" fill="white"/>
+            <path d="M88.1686 37.5614L89.8306 37.0505L89.8306 70.1245C89.8306 81.6383 80.4968 90.972 68.9831 90.972H20.8475C9.33373 90.972 0 81.6383 0 70.1245L5.82831e-06 64.6631L9.32209 61.7976V70.1585C9.34039 76.5082 14.4935 81.65 20.8475 81.65H68.9831C75.3484 81.65 80.5085 76.4898 80.5085 70.1245V47.9298C80.5085 44.0677 80.5085 42.1367 81.5699 40.7001C82.6312 39.2635 84.477 38.6962 88.1686 37.5614Z" fill="white"/>
+            <path d="M25.119 60.0995V42.6931C25.119 38.1058 26.0766 37.1483 30.6638 37.1483H32.3793C36.967 37.1483 37.9242 38.1056 37.9242 42.6931V60.0995C37.9242 64.6871 36.967 65.6444 32.3793 65.6444H30.6638C26.0766 65.6444 25.119 64.6868 25.119 60.0995Z" fill="white"/>
+            <path d="M57.4504 26.3099C52.8632 26.3099 51.9055 27.2675 51.9055 31.8548V60.0994C51.9055 64.6868 52.8632 65.6442 57.4504 65.6442H59.1659C63.7536 65.6442 64.7108 64.687 64.7108 60.0994V31.8548C64.7108 27.2672 63.7536 26.3099 59.1659 26.3099H57.4504Z" fill="white"/>
+          </svg>
+            <label  class="text-isabelline  min-[320px]:text-sm lg:text-xl font-bold">Surfer SEO Content Optimization Certification</label>
+            <label  class="text-chart  min-[320px]:text-sm lg:text-md">[September 2025]</label>
+            <button  class=" text-isabelline font-semibold hover:drop-shadow-bittersweet" onclick="location.href='https://credsverse.com/credentials/cd1646aa-5889-4ae6-9ab9-03c13eb7b869?preview=1'"><font-awesome-icon :icon="['fas', 'eye']" /></button>
+          </div>
+        </div>
+        <div class="mt-5">
+          <div class="flex space-x-4 items-center col-start-2 col-span-2">
             <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'apple']" />
             <label  class="text-isabelline  min-[320px]:text-sm lg:text-xl font-bold">App Developer for Claris FileMaker Pro</label>
             <label  class="text-chart  min-[320px]:text-sm lg:text-md">[November 2024]</label>
@@ -77,24 +90,6 @@
             <label  class="text-isabelline  min-[320px]:text-sm lg:text-xl font-bold">Microsoft Technology Associate: Database Administration Fundamentals</label>
             <label  class="text-chart  min-[320px]:text-sm lg:text-md">[May 2021]</label>
             <button  class=" text-isabelline font-semibold hover:drop-shadow-bittersweet" onclick="location.href='https://www.credly.com/badges/790c00c1-979e-4568-8dd1-74407339605c/public_url'"><font-awesome-icon :icon="['fas', 'eye']" /></button>
-          </div>
-        </div>
-        <div class="mt-5">
-          <div class="">
-            <div class="flex space-x-4 items-center col-start-2 col-span-2">
-              <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'microsoft']" />
-              <label  class="text-isabelline  min-[320px]:text-sm lg:text-xl font-bold">Microsoft Technology Associate: Database Administration Fundamentals</label>
-            </div>
-            <button  class=" mt-3  text-isabelline font-semibold hover:drop-shadow-bittersweet" onclick="location.href='https://www.credly.com/badges/790c00c1-979e-4568-8dd1-74407339605c/public_url'"><font-awesome-icon :icon="['fas', 'certificate']" /> Show Credential</button>
-          </div>
-        </div>
-        <div class="mt-5">
-          <div class="">
-            <div class="flex space-x-4 items-center col-start-2 col-span-2">
-              <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'apple']" />
-              <label  class="text-isabelline  min-[320px]:text-sm lg:text-xl font-bold">Claris FileMaker Pro Specialist & Associate</label>
-            </div>
-            <button  class=" mt-3  text-isabelline font-semibold hover:drop-shadow-bittersweet" onclick="location.href='https://www.credly.com/badges/ab0f475e-a6dd-4c20-8738-c15cf997a5fe/public_url'"><font-awesome-icon :icon="['fas', 'certificate']" /> Show Credential</button>
           </div>
         </div>
       </div>
@@ -151,11 +146,24 @@
 
           <li v-motion-slide-visible-left class="mb-10 ml-4">
             <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -left-6"></div>
-            <time class="mb-1 text-sm font-normal leading-none text-isabelline">November 2024 - Present </time>
+            <time class="mb-1 text-sm font-normal leading-none text-isabelline">July 2025 - November 2025 </time>
             <div class=" ">
               <div class="">
                 <div class="block items-center">
-                  <svg class="my-2" width="40" height="36" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 
+                  <h3 class="text-2xl font-semibold text-pink-lav lg:me-3 sm:me-0">Joe Frick Law PLLC</h3>
+                </div>
+                <p class="text-isabelline italic text-sm my-2">Joe Frick Law, PLLC is a Treasure Valley Divorce Law Firm with offices in Nampa and Boise.</p>
+              </div>
+              <p class="mb-4 text-xl font-bold text-pink-lav">as Digital Brand Specialist</p>
+            </div>
+          </li>
+          <li v-motion-slide-visible-left class="mb-10 ml-4">
+            <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -left-6"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-isabelline">November 2024 - July 2025 </time>
+            <div class=" ">
+              <div class="block-items-center">
+                <svg class="my-2" width="40" height="36" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_1921_164)">
                     <path d="M38.0321 5.29826C38.0321 4.35521 38.0635 3.42 38.0321 2.51608C38.018 2.71801 38.018 2.92067 38.0321 3.1226V5.29826Z" fill="#222222"></path>
                     <path d="M1.0402 2.51608C1.02054 3.42 1.0402 4.35521 1.0402 5.29826V3.13043C1.05176 2.92581 1.05176 2.7207 1.0402 2.51608Z" fill="#222222"></path>
@@ -189,25 +197,12 @@
                     <rect width="39.1034" height="36" fill="white"></rect>
                     </clipPath>
                     </defs>
-                    </svg>
-                  <h3 class="text-2xl font-semibold text-pink-lav lg:me-3 sm:me-0">Power Mac Center</h3>
-                </div>
-                <p class="text-isabelline italic text-sm my-2">Power Mac Center is the premier and leading Apple Premium Reseller in the Philippines. From our humble beginnings, we have grown to 108 locations nationwide, continuously expanding to serve emerging markets.</p>
-              </div>
-              <p class="mb-4 text-xl font-bold text-pink-lav">as UI / UX Designer</p>
-            </div>
-          </li>
-          <li v-motion-slide-visible-left class="mb-10 ml-4">
-            <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -left-6"></div>
-            <time class="mb-1 text-sm font-normal leading-none text-isabelline">November 2024 - July 2025 </time>
-            <div class=" ">
-              <div class="">
+                  </svg>
                 <h3 class="text-2xl font-semibold text-pink-lav lg:me-3 sm:me-0">Power Mac Center</h3>
                 <p class="text-isabelline italic text-sm my-2">Power Mac Center is the premier and leading Apple Premium Reseller in the Philippines, established in 1994. They offer a wide range of Apple products, including Macs, iPhones, iPads, Apple Watches, and accessories, as well as various services like in-store classes, Uptrade programs, and installment options. Power Mac Center also operates as an Authorized Service Provider for Apple products, providing repair and maintenance services. They have a significant presence in the Philippines with numerous retail stores and service centers. </p>
               </div>
               <p class="mb-4 text-xl font-bold text-pink-lav">as UI / UX Designer</p>
             </div>
-            
           </li>
           <li v-motion-slide-visible-left class="mb-10 ml-4">
             <div class="absolute w-3 h-3 bg-pink-lav rounded-full mt-1.5 -left-6"></div>
