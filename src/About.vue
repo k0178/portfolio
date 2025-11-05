@@ -12,7 +12,7 @@
       <div class="absolute top-0 left-0 text-right text-gunmetal">
         <label for="" class="text-lg font-bold"> KENNETH LEANDA</label>
         <br>
-        <label for="" class="text-xs tracking-wide italic"> UI / UX DESIGNER</label>
+        <label for="" class="text-xs tracking-wide italic"> WEB DESIGNER</label>
       </div>
       <img src="./assets/img/kenneth-nobg.png" class=" grayscale  h-[600px]" alt="">
     </div>
