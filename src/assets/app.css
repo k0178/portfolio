@@ -7,6 +7,18 @@
     /* cursor: cell; */
 }
 
+html, body {
+    height: auto;
+}
+
+.lenis {
+    scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto;
+}
+
 .active {
     box-shadow: 10px 10px 0 rgb(224, 255, 79);
 }
