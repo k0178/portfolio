@@ -19,49 +19,49 @@
 <swiper class="mySwiper mb-10">
     <swiper-slide class="">
         <ImageContainer
-        imageSrc="/src/assets/img/truenorth1.png"
+        imageSrc="/img/truenorth1.png"
         imageAlt="True North Auctions Screenshot 1"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-        imageSrc="/src/assets/img/truenorth2.png"
+        imageSrc="/img/truenorth2.png"
         imageAlt="True North Auctions Screenshot 2"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-        imageSrc="/src/assets/img/truenorth3.png"
+        imageSrc="/img/truenorth3.png"
         imageAlt="True North Auctions Screenshot 3"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-        imageSrc="/src/assets/img/truenorth4.jpeg"
+        imageSrc="/img/truenorth4.jpeg"
         imageAlt="True North Auctions Screenshot 4"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/truenorth5.png"
+            imageSrc="/img/truenorth5.png"
             imageAlt="True North Auctions Screenshot 5"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/truenorth6.png"
+            imageSrc="/img/truenorth6.png"
             imageAlt="True North Auctions Screenshot 6"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/truenorth7.png"
+            imageSrc="/img/truenorth7.png"
             imageAlt="True North Auctions Screenshot 7"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/truenorth8.png"
+            imageSrc="/img/truenorth8.png"
             imageAlt="True North Auctions Screenshot 8"
         />
     </swiper-slide>
@@ -89,43 +89,43 @@
 <swiper class="mySwiper mb-16">
     <swiper-slide class="">
         <ImageContainer
-            imageSrc="/src/assets/img/clobys1.png"
+            imageSrc="/img/clobys1.png"
             imageAlt="Cloby's Photography Studio Screenshot 1"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/clobys2.png"
+            imageSrc="/img/clobys2.png"
             imageAlt="Cloby's Photography Studio Screenshot 2"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/clobys3.png"
+            imageSrc="/img/clobys3.png"
             imageAlt="Cloby's Photography Studio Screenshot 3"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/clobys4.png"
+            imageSrc="/img/clobys4.png"
             imageAlt="Cloby's Photography Studio Screenshot 4"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/clobys5.png"
+            imageSrc="/img/clobys5.png"
             imageAlt="Cloby's Photography Studio Screenshot 5"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/clobys6.png"
+            imageSrc="/img/clobys6.png"
             imageAlt="Cloby's Photography Studio Screenshot 6"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/clobys7.png"
+            imageSrc="/img/clobys7.png"
             imageAlt="Cloby's Photography Studio Screenshot 7"
         />
     </swiper-slide>
@@ -149,37 +149,37 @@
 <swiper class="mySwiper mb-10">
     <swiper-slide class="">
         <ImageContainer
-            imageSrc="/src/assets/img/greenap-1.png"
+            imageSrc="/img/greenap-1.png"
             imageAlt="Green AP Screenshot 1"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/greenap-2.png"
+            imageSrc="/img/greenap-2.png"
             imageAlt="Green AP Screenshot 2"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/greenap-3.png"
+            imageSrc="/img/greenap-3.png"
             imageAlt="Green AP Screenshot 3"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/greenap-4.png"
+            imageSrc="/img/greenap-4.png"
             imageAlt="Green AP Screenshot 4"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/greenap-5.png"
+            imageSrc="/img/greenap-5.png"
             imageAlt="Green AP Screenshot 5"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/greenap-6.png"
+            imageSrc="/img/greenap-6.png"
             imageAlt="Green AP Screenshot 6"
         />
     </swiper-slide>
@@ -207,25 +207,25 @@
 <swiper class="mySwiper mb-10">
     <swiper-slide class="">
         <ImageContainer
-            imageSrc="/src/assets/img/wistec.png"
+            imageSrc="/img/wistec.png"
             imageAlt="Wistec Screenshot 1"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/wistec2.png"
+            imageSrc="/img/wistec2.png"
             imageAlt="Wistec Screenshot 2"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/wistec3.png"
-            imageAlt="Wistec Screenshot"
+            imageSrc="/img/wistec3.png"
+            imageAlt="Wistec Screenshot 3"
         />
     </swiper-slide>
     <swiper-slide>
         <ImageContainer
-            imageSrc="/src/assets/img/wistec4.png"
+            imageSrc="/img/wistec4.png"
             imageAlt="Wistec Screenshot 4"
         />
     </swiper-slide>
