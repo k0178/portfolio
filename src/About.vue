@@ -14,7 +14,7 @@
         <br>
         <label for="" class="text-xs tracking-wide italic"> WEB DESIGNER</label>
       </div>
-      <img src="./assets/img/kenneth-nobg.png" class=" grayscale  h-[600px]" alt="">
+      <img src="/img/kenneth-nobg.png" class=" grayscale  h-[600px]" alt="">
     </div>
   </div>
 
