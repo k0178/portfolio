@@ -220,7 +220,7 @@
     <swiper-slide>
         <ImageContainer
             imageSrc="/src/assets/img/wistec3.png"
-            imageAlt="Wistec Screenshot 3"
+            imageAlt="Wistec Screenshot"
         />
     </swiper-slide>
     <swiper-slide>
