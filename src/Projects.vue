@@ -7,8 +7,12 @@
     </h1>
     <MainContainer bgColor="bg-pink-lav" boxShadow="shadow-bittersweet-2">
       <ProjectList></ProjectList>
+    <CTAButton
+      label="More of my Projects"
+      icon="arrow-right-long" 
+      to="https://www.behance.net/leandakenneth/projects"
+    />
     </MainContainer>
-      
   </div>
 </template>
 
@@ -16,11 +20,13 @@
   import Navbar from './components/Navbar.vue'
   import ProjectList from './components/ProjectList.vue'
   import MainContainer from './components/MainContainer.vue';
+  import CTAButton from './components/CTAButton.vue';
 
   export default{
     components:{
       Navbar,
       ProjectList,
+      CTAButton,
       MainContainer
     }
   }

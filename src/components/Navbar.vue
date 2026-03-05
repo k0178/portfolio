@@ -49,8 +49,8 @@ import NavbarIcon from './NavbarIcon.vue';
         },
         data(){
             return{
-                pdfUrl: 'files/Kenneth Leanda.pdf',
-                pdfFileName: 'Kenneth Leanda.pdf'
+                pdfUrl: 'files/Kenneth_Leanda_CV.pdf',
+                pdfFileName: 'Kenneth_Leanda_CV.pdf'
             }
         }
     }

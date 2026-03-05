@@ -18,44 +18,52 @@
 <SwipeToBrowse/>
 <swiper class="mySwiper mb-10">
     <swiper-slide class="">
-        <div class="">
-        <img src="/src/assets/img/truenorth1.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-        </div>
+        <ImageContainer
+        imageSrc="/src/assets/img/truenorth1.png"
+        imageAlt="True North Auctions Screenshot 1"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/truenorth2.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+        imageSrc="/src/assets/img/truenorth2.png"
+        imageAlt="True North Auctions Screenshot 2"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/truenorth3.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+        imageSrc="/src/assets/img/truenorth3.png"
+        imageAlt="True North Auctions Screenshot 3"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/truenorth4.jpeg" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+        imageSrc="/src/assets/img/truenorth4.jpeg"
+        imageAlt="True North Auctions Screenshot 4"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/truenorth5.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/truenorth5.png"
+            imageAlt="True North Auctions Screenshot 5"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/truenorth6.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/truenorth6.png"
+            imageAlt="True North Auctions Screenshot 6"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/truenorth7.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/truenorth7.png"
+            imageAlt="True North Auctions Screenshot 7"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/truenorth8.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/truenorth8.png"
+            imageAlt="True North Auctions Screenshot 8"
+        />
     </swiper-slide>
 </swiper>
 </div>
@@ -80,39 +88,46 @@
 <SwipeToBrowse/>
 <swiper class="mySwiper mb-16">
     <swiper-slide class="">
-        <div class="">
-        <img src="/src/assets/img/clobys1.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-        </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/clobys1.png"
+            imageAlt="Cloby's Photography Studio Screenshot 1"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/clobys2.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/clobys2.png"
+            imageAlt="Cloby's Photography Studio Screenshot 2"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/clobys3.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/clobys3.png"
+            imageAlt="Cloby's Photography Studio Screenshot 3"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/clobys4.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/clobys4.png"
+            imageAlt="Cloby's Photography Studio Screenshot 4"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/clobys5.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/clobys5.png"
+            imageAlt="Cloby's Photography Studio Screenshot 5"
+        />
     </swiper-slide>
     <swiper-slide>
-        <div class="">
-            <img src="/src/assets/img/clobys6.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-        </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/clobys6.png"
+            imageAlt="Cloby's Photography Studio Screenshot 6"
+        />
     </swiper-slide>
     <swiper-slide>
-        <div class="">
-            <img src="/src/assets/img/clobys7.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-        </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/clobys7.png"
+            imageAlt="Cloby's Photography Studio Screenshot 7"
+        />
     </swiper-slide>
 </swiper>
 
@@ -133,40 +148,47 @@
 <SwipeToBrowse/>
 <swiper class="mySwiper mb-10">
     <swiper-slide class="">
-    <div class="">
-        <img src="/src/assets/img/greenap-1.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/greenap-1.png"
+            imageAlt="Green AP Screenshot 1"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/greenap-2.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/greenap-2.png"
+            imageAlt="Green AP Screenshot 2"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/greenap-3.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/greenap-3.png"
+            imageAlt="Green AP Screenshot 3"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/greenap-4.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/greenap-4.png"
+            imageAlt="Green AP Screenshot 4"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/greenap-5.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/greenap-5.png"
+            imageAlt="Green AP Screenshot 5"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/greenap-6.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/greenap-6.png"
+            imageAlt="Green AP Screenshot 6"
+        />
     </swiper-slide>
-    <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/greenap-7.png" alt="" class="lg:w-auto md:w-1/4 md:h-1/4 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
-    </swiper-slide>
+    <!-- <swiper-slide>
+        <ImageContainer
+            imageSrc="/src/assets/img/greenap-7.png"
+            imageAlt="Green AP Screenshot 7"
+        />
+    </swiper-slide> -->
 </swiper>
 
 
@@ -184,32 +206,36 @@
 <SwipeToBrowse/>
 <swiper class="mySwiper mb-10">
     <swiper-slide class="">
-    <div class="">
-        <img src="/src/assets/img/wistec.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/wistec.png"
+            imageAlt="Wistec Screenshot 1"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/wistec2.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/wistec2.png"
+            imageAlt="Wistec Screenshot 2"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/wistec3.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/wistec3.png"
+            imageAlt="Wistec Screenshot 3"
+        />
     </swiper-slide>
     <swiper-slide>
-    <div class="">
-        <img src="/src/assets/img/wistec4.png" alt="" class="lg:w-auto md:w-2/3 md:h-2/3 min-[320px]:w-auto min-[320px]:h-auto">
-    </div>
+        <ImageContainer
+            imageSrc="/src/assets/img/wistec4.png"
+            imageAlt="Wistec Screenshot 4"
+        />
     </swiper-slide>
 </swiper>
 
 
 
-<!-- <p class="text-un-blue italic">And to more projects in the future.</p> -->
+
 <BackToTop/>
-<!-- <p class="text-un-blue mt-3 font-bold">Back to Top.</p> -->
+
 </template>
 
 <script >
@@ -222,6 +248,7 @@ import SwipeToBrowse from './SwipeToBrowse.vue';
 import ProjectTitle from './ProjectTitle.vue';
 import ProjectLinks from './ProjectLinks.vue';
 import ProjectDesc from './ProjectDesc.vue';
+import ImageContainer from './ImageContainer.vue';
 
 export default {
     components:{
@@ -232,6 +259,7 @@ export default {
         BackToTop,
         Swiper,
         SwiperSlide,
+        ImageContainer,
         Navigation,
     }
 }
