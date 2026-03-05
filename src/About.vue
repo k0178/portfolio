@@ -149,7 +149,7 @@
             <div class=" ">
               <div class="">
                 <div class="block items-center">
-                  <img src="/src/assets/img/jfl.png" class="my-2" alt="" width="45">
+                  <img src="/img/jfl.png" class="my-2" alt="" width="45">
                   <h3 class="text-2xl font-bold text-chart lg:me-3 sm:me-0">Joe Frick Law PLLC</h3>
                 </div>
                 <p class="mb-4 text-sm font-light text-chart">Digital Brand Specialist</p>
@@ -210,7 +210,7 @@
             <div class=" ">
               <div class="">
                 <div class="block items-center">
-                  <img src="/src/assets/img/logo_ds.svg" class="my-2" alt="" width="260">
+                  <img src="/img/logo_ds.svg" class="my-2" alt="" width="260">
                   <h3 class="text-2xl font-bold text-chart lg:me-3 sm:me-0">LiveCrossing Corporation (Digital Studio Co. Ltd.)</h3>
                   <p class="mb-4 text-sm font-light text-chart">UI / UX Designer</p>
                 </div>
