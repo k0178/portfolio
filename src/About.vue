@@ -38,7 +38,7 @@
           <div v-motion-slide-left class="grid md:grid-cols-4 min-[320px]:grid-cols-3 sm:grid-cols-2 grid-flow-row   gap-12 justify-items-center items-center ">
             <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'figma']" />
             <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'wordpress']" />
-            <img src="./assets/img/ghl.webp" width="45" height="45">
+            <img src="/img/ghl.webp" width="45" height="45">
             <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'elementor']" />
             <font-awesome-icon class="text-isabelline  font-bold me-2 text-5xl" :icon="['fab', 'bootstrap']" />
             
