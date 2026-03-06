@@ -4,10 +4,10 @@
         :is="isExternal ? 'a' : 'router-link'"
         :href="isExternal ? to : null"
         :to="!isExternal ? to : null"
-        target="_blank"
-        rel="noopener"
+        :target="isExternal ? '_blank' : null"
+        :rel="isExternal ? 'noopener' : null"
         :class="[
-            'rounded-lg hover:border-chart bg-un-blue text-chart border-2 border-un-blue p-3 font-medium text-xs transition-all ease-in-out duration-300',
+            'rounded-lg p-3 font-medium text-xs transition-all ease-in-out duration-300',
         ]"
     >
         

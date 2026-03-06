@@ -2,6 +2,7 @@
   import Navbar from './components/Navbar.vue'
   import BackToTop from './components/BackToTop.vue';
   import MainContainer from './components/MainContainer.vue';
+  import CTAButton from './components/CTAButton.vue';
 </script>
 
 <template>
@@ -221,6 +222,15 @@
           </li>
         </ol>
       </div> 
+      <div class="w-full flex justify-end items-end">
+        <CTAButton
+          is="router-link"
+          label="View my Projects"
+          :icon="['fas', 'palette']"
+          to="/projects"
+          class="mt-10 hover:border-gunmetal bg-pink-lav text-gunmetal border-2 border-pink-lav transition-colors duration-300"
+        />
+    </div>
     </MainContainer>
   </div>
   <BackToTop/>

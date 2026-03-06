@@ -25,11 +25,12 @@
         label="Check out my Projects in"
         icon="fab fa-behance" 
         to="https://www.behance.net/leandakenneth/projects"
-        class="mb-10"
+        class="mb-10 hover:border-chart bg-un-blue text-isabelline border-2 border-un-blue"
       />
     </div>
     <MoreProjects></MoreProjects>
     </MainContainer>
+    <BackToTop/>
   </div>
 </template>
 
@@ -39,14 +40,15 @@
   import MainContainer from './components/MainContainer.vue';
   import CTAButton from './components/CTAButton.vue';
   import MoreProjects from './components/MoreProjects.vue';
-
+  import BackToTop from './components/BackToTop.vue';
   export default{
     components:{
       Navbar,
       ProjectList,
       CTAButton,
       MainContainer,
-      MoreProjects
+      MoreProjects,
+      BackToTop
     }
   }
 </script>

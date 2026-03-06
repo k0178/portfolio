@@ -243,7 +243,6 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper';
-import BackToTop from './BackToTop.vue';
 import SwipeToBrowse from './SwipeToBrowse.vue';
 import ProjectTitle from './ProjectTitle.vue';
 import ProjectLinks from './ProjectLinks.vue';
@@ -256,7 +255,6 @@ export default {
         ProjectTitle,
         ProjectDesc,
         SwipeToBrowse,
-        BackToTop,
         Swiper,
         SwiperSlide,
         ImageContainer,

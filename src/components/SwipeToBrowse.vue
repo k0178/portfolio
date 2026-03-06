@@ -1,5 +1,5 @@
 <template>
-    <div class="flex text-xs text-un-blue items-center justify-end gap-2 mb-3">
+    <div class="flex text-xs text-gunmetal items-center justify-end gap-2 mb-3">
         <p class=" ">Swipe images to browse</p>
         <font-awesome-icon class="" :icon="['fas', 'hand']" />
     </div>
