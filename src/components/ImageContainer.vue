@@ -3,7 +3,7 @@
         <img 
             :src="imageSrc" 
             :alt="imageAlt"
-            class="container-image"
+            :class="['container-image', { grayscale: isGrayscale, blur: isBlurred }]"
         />
         <div v-if="caption" class="image-caption">
             {{ caption }}
@@ -26,6 +26,14 @@ export default {
         caption: {
             type: String,
             default: ''
+        },
+        isGrayscale: {
+            type: Boolean,
+            default: false
+        },
+        isBlurred: {
+            type: Boolean,
+            default: false
         }
     }
 }
@@ -52,5 +60,13 @@ export default {
     color: #666;
     text-align: center;
     margin-top: 0.25rem;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.blur {
+    filter: blur(4px);
 }
 </style>

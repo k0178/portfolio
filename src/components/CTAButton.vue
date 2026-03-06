@@ -1,9 +1,13 @@
 <template>
-    <router-link
+    <component
         v-motion-pop
-        :to="to"
+        :is="isExternal ? 'a' : 'router-link'"
+        :href="isExternal ? to : null"
+        :to="!isExternal ? to : null"
+        target="_blank"
+        rel="noopener"
         :class="[
-            'rounded-lg mb-11 hover:border-chart bg-un-blue text-chart border-2 border-un-blue p-3 font-bold text-xs transition-all ease-in-out duration-300',
+            'rounded-lg hover:border-chart bg-un-blue text-chart border-2 border-un-blue p-3 font-medium text-xs transition-all ease-in-out duration-300',
         ]"
     >
         
@@ -11,26 +15,32 @@
             {{ label }}
         </label>
         <font-awesome-icon :class="['text-sm ms-2']" :icon="icon" />
-    </router-link>
+    </component>
 </template>
 
 <script>
 export default {
-    name: 'CTAButton',
     props: {
-        label: {
-            type: String,
-        },
-        icon: {
-            type: Array,
-            required: true
-        },
         to: {
             type: String,
-            required: true
-        }
+            required: true,
+        },
+        label: {
+            type: String,
+            required: true,
+        },
+        icon: {
+            type: [String, Array],
+            required: true,
+        },
     },
-}
+
+    computed: {
+        isExternal() {
+        return this.to && this.to.startsWith("http");
+        },
+    },
+};
 </script>
 
 <style scoped>
